@@ -55,7 +55,7 @@
         }
     ],
     "origin": 3,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
