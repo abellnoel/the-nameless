@@ -3,4 +3,6 @@
 image_xscale = global.spriteScale;
 image_yscale = global.spriteScale;
 
+//For movement
+lastDir = direction;
 

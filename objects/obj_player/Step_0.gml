@@ -13,12 +13,15 @@ vinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 //(-1, 0) <- (0, 0) -> (1, 0)
 //				|
 //			 (0, 1)
-dir = point_direction(0, 0, hinput, vinput);
+dir = point_direction(0, 0, hinput, vinput)
+//if moving
 if (hinput != 0 or vinput != 0) {
 	speed = moveSpeed;
 	direction = dir;
+	lastDir = dir;
 }
+//if not moving
 else {
+	direction = lastDir;
 	speed = 0;
-	direction = 270; //defaults to down when not moving
 }

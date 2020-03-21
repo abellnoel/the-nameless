@@ -5,5 +5,5 @@ if (global.debugf1) {
 	draw_set_halign(fa_center);
 	draw_text(x, bbox_top - 20, "hinput = " + string(hinput));
 	draw_text(x, bbox_top - 30, "vinput = " + string(vinput));
-	draw_text(x, bbox_top - 40, "dir = " + string(dir));
+	draw_text(x, bbox_top - 40, "direction = " + string(direction));
 }
