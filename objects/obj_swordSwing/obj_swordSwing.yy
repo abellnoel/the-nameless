@@ -75,20 +75,6 @@
             "value": "0.05",
             "varName": "swingDuration",
             "varType": 0
-        },
-        {
-            "id": "87a2dd70-2809-476e-8549-eee2f6e44e95",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "damage",
-            "varType": 0
         }
     ],
     "solid": false,
