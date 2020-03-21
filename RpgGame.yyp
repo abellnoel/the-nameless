@@ -95,11 +95,27 @@
             }
         },
         {
+            "Key": "2a46d2a4-730a-49b2-9dce-2783de7613c6",
+            "Value": {
+                "id": "0ab19488-c0f3-4473-bbf7-ebd3160b49b7",
+                "resourcePath": "objects\\obj_swordSwing\\obj_swordSwing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ce4514a-262c-4e50-a1fe-f6bc4df803ef",
             "Value": {
                 "id": "6bc64532-f167-44b2-9326-1036ee565f47",
                 "resourcePath": "views\\2ce4514a-262c-4e50-a1fe-f6bc4df803ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40887a3a-630a-45b9-93d3-866dd3ee8950",
+            "Value": {
+                "id": "c4a0c9f4-9975-4154-b03f-b816ca5c3c2b",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -122,7 +138,7 @@
             "Key": "63dff2ac-23cf-4bdb-8c88-673ce2312d78",
             "Value": {
                 "id": "ec95e1ee-59c9-48a2-bf5e-d3e256557257",
-                "resourcePath": "sprites\\spr_box16x16\\spr_box16x16.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -191,6 +207,14 @@
             }
         },
         {
+            "Key": "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7",
+            "Value": {
+                "id": "329ba953-2c65-4e6d-88d4-3b93d9cabfb8",
+                "resourcePath": "scripts\\script_weaponSwing\\script_weaponSwing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "901d161b-41b7-4ac1-8c73-d182cf563d43",
@@ -203,6 +227,14 @@
             "Value": {
                 "id": "f37c22c8-3792-4c77-b4fc-0e676ec0ce8a",
                 "resourcePath": "sprites\\spr_warrior\\spr_warrior.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba164aca-ab3d-4ca8-980a-396fc79bdc77",
+            "Value": {
+                "id": "92dd3f8a-594e-4bb7-bb24-3d22623a3e07",
+                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -277,10 +309,18 @@
                 "resourcePath": "views\\f8606df4-58d5-4d62-b781-8df833008e20.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fea73a35-69fe-41ff-a69d-363955827904",
+            "Value": {
+                "id": "c2cabf6f-20b7-4d59-8492-d4d4cded0a3f",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7"
     ],
     "tutorial": ""
 }
