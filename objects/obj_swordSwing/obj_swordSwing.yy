@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
+            "value": "0.05",
             "varName": "swingDuration",
             "varType": 0
         },
@@ -86,7 +86,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "1",
             "varName": "damage",
             "varType": 0
         }

@@ -25,3 +25,9 @@ else {
 	direction = lastDir;
 	speed = 0;
 }
+
+//ATTACK SPEED ALARM 
+//FOR CHILDREN: Set canAttack to false in basic attack code after basic attack occurs
+if (canAttack) { //prevents attacks until canAttack is set to true again
+	alarm[0] = room_speed * attackSpeed;	
+}

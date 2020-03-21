@@ -4,3 +4,4 @@ lastDir = direction;
 
 //For combat
 hp = maxHealth;
+canAttack = true;
