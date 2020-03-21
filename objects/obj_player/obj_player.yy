@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "df4d08ac-f893-4f6e-a50c-e0ed130335d0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -52,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "100",
             "varName": "maxHealth",
             "varType": 0
         },
@@ -66,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "5",
             "varName": "moveSpeed",
             "varType": 0
         },
@@ -80,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "1",
             "varName": "attackSpeed",
             "varType": 0
         },
@@ -94,7 +104,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "10",
             "varName": "attackDamage",
             "varType": 0
         }
