@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2f21241b-1402-462c-9d42-85d01518d699",
+            "Value": {
+                "id": "7f716d84-52bf-41ae-9ac5-054d48f65caa",
+                "resourcePath": "scripts\\script_scurry\\script_scurry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "398a77c9-d9ef-4803-8adf-900542fe6c12",
             "Value": {
                 "id": "dffcabf4-6c67-44d4-aaa9-546478bf87c7",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "a799ca1b-7cff-4eee-8e48-0eeb896954fb",
+            "Value": {
+                "id": "4cbf3333-333c-42a8-8d6c-9d4a4658910b",
+                "resourcePath": "sprites\\spr_enemyDeath\\spr_enemyDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "901d161b-41b7-4ac1-8c73-d182cf563d43",
@@ -260,6 +276,14 @@
                 "id": "f37c22c8-3792-4c77-b4fc-0e676ec0ce8a",
                 "resourcePath": "sprites\\spr_warrior\\spr_warrior.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "af53602b-c8c4-442d-bd28-96244a9e3dce",
+            "Value": {
+                "id": "b65c4498-debe-460b-b975-1883aef8e066",
+                "resourcePath": "objects\\obj_enemyDeath\\obj_enemyDeath.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -344,7 +368,8 @@
         }
     ],
     "script_order": [
-        "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7"
+        "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7",
+        "2f21241b-1402-462c-9d42-85d01518d699"
     ],
     "tutorial": ""
 }
