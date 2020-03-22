@@ -41,20 +41,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "44be1326-1361-4070-b9a0-b6864d346e3a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "script_weaponSwing",
-            "varName": "basicAttackScript",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "a99439d5-79a3-41d3-bf20-2e850346d3f8",
