@@ -6,5 +6,7 @@ if(image_index == image_number - 1) {
 }
 
 //follow player position
-x = following.x;
-y = following.y;
+if (instance_exists(following)) { //prevents crashes where player dies before sword swing finishes
+	x = following.x;
+	y = following.y;
+}
