@@ -239,14 +239,6 @@
             }
         },
         {
-            "Key": "ba164aca-ab3d-4ca8-980a-396fc79bdc77",
-            "Value": {
-                "id": "92dd3f8a-594e-4bb7-bb24-3d22623a3e07",
-                "resourcePath": "sprites\\spr_swordSwing\\spr_swordSwing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "bfa90276-97df-4191-a817-91dbf6502c6c",
             "Value": {
                 "id": "06ed75e6-ac8e-4ed9-9dbb-156da4b75f56",
