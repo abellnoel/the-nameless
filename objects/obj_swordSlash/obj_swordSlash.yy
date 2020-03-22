@@ -2,18 +2,8 @@
     "id": "2a46d2a4-730a-49b2-9dce-2783de7613c6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_swordSwing",
+    "name": "obj_swordSlash",
     "eventList": [
-        {
-            "id": "04f0f5e7-f660-4336-9c94-28803cc85f0f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
-        },
         {
             "id": "d20ac954-5f63-4b35-98f4-d3fbd50bd0be",
             "modelName": "GMEvent",
@@ -35,13 +25,23 @@
             "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
         },
         {
-            "id": "8d63c597-27f6-45d4-9077-2888f645b2de",
+            "id": "8be1cd25-345e-4748-9af5-106063144187",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
+            "eventtype": 3,
+            "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
+        },
+        {
+            "id": "71794668-a319-4b26-9a98-4c22f9d65924",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
             "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
         }
     ],
@@ -62,22 +62,9 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "5b087ac6-60cb-462c-b510-3d05bffc5815",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.05",
-            "varName": "swingDuration",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
-    "spriteId": "ba164aca-ab3d-4ca8-980a-396fc79bdc77",
+    "spriteId": "398a77c9-d9ef-4803-8adf-900542fe6c12",
     "visible": true
 }
