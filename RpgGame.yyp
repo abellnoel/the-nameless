@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1e512854-5b59-46ba-af70-14f4c7f54d24",
+            "Value": {
+                "id": "0c2727c4-ae3f-4bab-8ecb-55e0c5cd894c",
+                "resourcePath": "sprites\\spr_sworSwingAni\\spr_sworSwingAni.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ea28d6b-a5c1-4fb3-b3ac-d4b20a472cbc",
             "Value": {
                 "id": "b280092e-4157-4706-a9c6-cfeabb30fabf",
@@ -108,6 +116,14 @@
                 "id": "6bc64532-f167-44b2-9326-1036ee565f47",
                 "resourcePath": "views\\2ce4514a-262c-4e50-a1fe-f6bc4df803ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d4e278b-a770-4002-9c4f-5f967e77d9b9",
+            "Value": {
+                "id": "4d4687a5-5040-40cd-b5cb-27f1ccb6136e",
+                "resourcePath": "objects\\object5\\object5.yy",
+                "resourceType": "GMObject"
             }
         },
         {

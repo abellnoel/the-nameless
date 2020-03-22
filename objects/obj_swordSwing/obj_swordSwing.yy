@@ -5,16 +5,6 @@
     "name": "obj_swordSwing",
     "eventList": [
         {
-            "id": "04f0f5e7-f660-4336-9c94-28803cc85f0f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
-        },
-        {
             "id": "d20ac954-5f63-4b35-98f4-d3fbd50bd0be",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,6 +33,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
+        },
+        {
+            "id": "911281a2-00fe-4811-9a57-cda016986c60",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2a46d2a4-730a-49b2-9dce-2783de7613c6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -62,22 +62,9 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "5b087ac6-60cb-462c-b510-3d05bffc5815",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.05",
-            "varName": "swingDuration",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
-    "spriteId": "ba164aca-ab3d-4ca8-980a-396fc79bdc77",
+    "spriteId": "1e512854-5b59-46ba-af70-14f4c7f54d24",
     "visible": true
 }

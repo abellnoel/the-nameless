@@ -5,4 +5,4 @@ weaponSwing = argument0;
 swing = instance_create_layer(x, y, "Instances", weaponSwing);
 swing.damage = attackDamage;
 swing.image_angle = point_direction(x, y, mouse_x, mouse_y);
-swing.alarm[0] = room_speed * swing.swingDuration;
+swing.following = id;
