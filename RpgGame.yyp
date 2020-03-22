@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "062ac77c-a81c-452e-be42-c134ae99ef87",
+            "Value": {
+                "id": "ef198a38-7845-4107-b047-10e67c09900f",
+                "resourcePath": "scripts\\script_attackContact\\script_attackContact.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "08a652ed-1050-418d-972f-51cf202c0321",
+            "Value": {
+                "id": "5d8e41a7-bcea-481a-bda4-3649849188b1",
+                "resourcePath": "views\\08a652ed-1050-418d-972f-51cf202c0321.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0b0fb9cd-61f1-47fa-8f95-5c7496b564d3",
             "Value": {
                 "id": "bd419670-9808-4966-90f4-c1bfba677410",
@@ -122,7 +138,7 @@
             "Key": "2f21241b-1402-462c-9d42-85d01518d699",
             "Value": {
                 "id": "7f716d84-52bf-41ae-9ac5-054d48f65caa",
-                "resourcePath": "scripts\\script_scurry\\script_scurry.yy",
+                "resourcePath": "scripts\\script_movementScurry\\script_movementScurry.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "a7a65b89-9246-4162-bb2f-914b443ae733",
+            "Value": {
+                "id": "dccea435-4adf-4b20-971d-93c27e48dfe8",
+                "resourcePath": "views\\a7a65b89-9246-4162-bb2f-914b443ae733.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "901d161b-41b7-4ac1-8c73-d182cf563d43",
@@ -284,6 +308,14 @@
                 "id": "b65c4498-debe-460b-b975-1883aef8e066",
                 "resourcePath": "objects\\obj_enemyDeath\\obj_enemyDeath.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bbdfdb2b-236f-4e5f-925c-65aa0ea81c63",
+            "Value": {
+                "id": "e2477e9a-a70e-4903-a563-4ad62fa70d9a",
+                "resourcePath": "views\\bbdfdb2b-236f-4e5f-925c-65aa0ea81c63.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -369,7 +401,8 @@
     ],
     "script_order": [
         "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7",
-        "2f21241b-1402-462c-9d42-85d01518d699"
+        "2f21241b-1402-462c-9d42-85d01518d699",
+        "062ac77c-a81c-452e-be42-c134ae99ef87"
     ],
     "tutorial": ""
 }

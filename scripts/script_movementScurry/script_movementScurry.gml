@@ -1,3 +1,6 @@
+//VARIABLES REQUIRED FROM CALLING INSTANCE
+//move, xMove, yMove, scurryRange
+
 //pick random place to move within room boundaries
 if (move) {
 	xMove = irandom_range(x - scurryRange, x + scurryRange);

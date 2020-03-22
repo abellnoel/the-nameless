@@ -1,3 +1,6 @@
+//VARIABLES REQUIRED FROM CALLING INSTANCE
+//following, attackDamage
+
 //transfer argument into readable variable
 weaponSwing = argument0;
 

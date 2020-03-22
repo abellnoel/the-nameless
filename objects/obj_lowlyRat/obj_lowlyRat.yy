@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "0b7043b6-b5ad-41b6-a4db-29b5b1322da7"
+        },
+        {
+            "id": "adf340f8-0e76-49c6-9edf-e76429245d82",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "0b7043b6-b5ad-41b6-a4db-29b5b1322da7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,6 +52,22 @@
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "de5bf515-d5e1-4676-8834-7b3c11df73db",
             "value": "3"
+        },
+        {
+            "id": "c453b3f6-8374-4f4e-ab64-15f3b9a3b8c5",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
+            "propertyId": "cdb27e45-79b2-4c1d-b2ee-18aecbb8b579",
+            "value": "5"
+        },
+        {
+            "id": "88520085-d445-4472-9a97-c73e781ff4ea",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
+            "propertyId": "cda78b07-c070-4178-a09f-ee28a5296005",
+            "value": "1"
         }
     ],
     "parentObjectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
@@ -69,7 +95,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "250",
+            "value": "0",
             "varName": "scurryRange",
             "varType": 0
         }
