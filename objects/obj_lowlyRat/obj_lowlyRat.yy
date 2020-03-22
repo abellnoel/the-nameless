@@ -95,7 +95,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "250",
             "varName": "scurryRange",
             "varType": 0
         }
