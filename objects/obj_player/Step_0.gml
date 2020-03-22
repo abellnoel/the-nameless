@@ -31,3 +31,9 @@ else {
 if (canAttack) { //prevents attacks until canAttack is set to true again
 	alarm[0] = room_speed * attackSpeed;	
 }
+
+//DEATH
+if (hp <= 0) {
+	instance_create_layer(x, y, "Instances", obj_enemyDeath);
+	instance_destroy();
+}
