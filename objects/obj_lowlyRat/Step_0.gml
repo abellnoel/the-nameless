@@ -8,7 +8,8 @@ script_execute(script_attackContact);
 
 //Special movement code (swarm around rat king) 
 if (instance_exists(obj_kingRat)) {
-	script_execute(script_movementSwarm, obj_kingRat);
+	closestKing = instance_nearest(x, y, obj_kingRat);
+	script_execute(script_movementSwarm, closestKing);
 }
 //Normal attack (scurry)
 else {
