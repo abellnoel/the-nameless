@@ -5,4 +5,4 @@ if (hp <= 0) {
 }
 
 //damage taken effect
-script_execute(script_damageTakenEffect, 0.25, c_red);
+script_execute(script_damageTakenEffect);

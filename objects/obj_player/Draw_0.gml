@@ -14,6 +14,6 @@ if (global.debugf1) {
 //HEALTH BAR
 hleft = x - (sprite_width / 2);
 hright = x + (sprite_width/ 2);
-hbot = y - (sprite_height / 2) - obj_controller.healthBarAboveOffset;
-htop = hbot - obj_controller.healthBarThickness;
+hbot = y - (sprite_height / 2) - global.healthBarAboveOffset;
+htop = hbot - global.healthBarThickness;
 draw_healthbar(hleft, htop, hright, hbot, (hp / maxHealth * 100), c_dkgray, c_red, c_lime, 0, true, false);

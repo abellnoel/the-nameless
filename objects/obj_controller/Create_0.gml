@@ -1,6 +1,12 @@
 /// @description For general control of gameplay
 //GLOBALS
 global.debugf1 = false; //used to invoke debug elements linked to f1
+//damage taken effect
+global.damageTakenDuration = damageTakenDuration;
+global.damageTakenColor = damageTakenColor;
+//health bar
+global.healthBarAboveOffset = healthBarAboveOffset;
+global.healthBarThickness = healthBarThickness;
 
 //ENEMY SPAWN
 chosenSpawn = obj_lowlyRat //default

@@ -109,6 +109,34 @@
             "value": "6",
             "varName": "healthBarThickness",
             "varType": 0
+        },
+        {
+            "id": "68335bce-f476-487b-b5a5-cff2071c58b6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.25",
+            "varName": "damageTakenDuration",
+            "varType": 0
+        },
+        {
+            "id": "65d50636-630a-4d8f-81a6-31eab69281ec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FF0000FF",
+            "varName": "damageTakenColor",
+            "varType": 7
         }
     ],
     "solid": false,
