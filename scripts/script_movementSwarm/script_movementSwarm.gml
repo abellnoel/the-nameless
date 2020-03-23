@@ -4,11 +4,11 @@
 //move argument into named variable
 master = argument0;
 
-//pick random place to move within room boundaries
+//pick random place to move around master
 if (move) {
 	xMove = irandom_range(master.x - swarmRange, master.x + swarmRange);
 	yMove = irandom_range(master.y - swarmRange, master.y + swarmRange);
-	//chooses new point if point chose was offscreen
+	//chooses new point if point chosen was offscreen
 	if (point_in_rectangle(xMove, yMove, 0, 0, room_width, room_height)) { 
 		move = false;
 	}
