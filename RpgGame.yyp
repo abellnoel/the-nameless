@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "aeb16221-b254-49d4-9a04-e1af8a7a5061",
+            "Value": {
+                "id": "4a11492a-f263-466f-8b41-7652b6a37a08",
+                "resourcePath": "scripts\\script_movementSwarm\\script_movementSwarm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "af53602b-c8c4-442d-bd28-96244a9e3dce",
             "Value": {
                 "id": "b65c4498-debe-460b-b975-1883aef8e066",
@@ -434,7 +442,8 @@
     "script_order": [
         "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7",
         "2f21241b-1402-462c-9d42-85d01518d699",
-        "062ac77c-a81c-452e-be42-c134ae99ef87"
+        "062ac77c-a81c-452e-be42-c134ae99ef87",
+        "aeb16221-b254-49d4-9a04-e1af8a7a5061"
     ],
     "tutorial": ""
 }

@@ -98,6 +98,20 @@
             "value": "250",
             "varName": "scurryRange",
             "varType": 0
+        },
+        {
+            "id": "674352fe-9c17-4184-870b-b0f1be55b3a5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "swarmRange",
+            "varType": 0
         }
     ],
     "solid": false,
