@@ -1,3 +1,8 @@
+/* DESCRIPTION: 
+	- Causes a color overlay effect on the calling instances
+	- Color and length of effect defined by globals that can be changed in controller's variable definitions
+*/
+
 //VARIABLES REQUIRED FROM CALLING INSTANCE
 //hp, lastHp, alarm[1] that sets image_blend = -1 (default image_blend)
 

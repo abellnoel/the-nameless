@@ -1,3 +1,9 @@
+/* DESCRIPTION
+	- Calling instances damages the player on collision
+	- The frequency of this damage is defined by attackSpeed
+	- The amount of damage is defined by attackDamage
+*/
+
 //VARIABLES REQUIRED FROM CALLING INSTANCE
 //canAttack, attackDamage, attackSpeed, alarm[0] -> sets canAttack back to true
 

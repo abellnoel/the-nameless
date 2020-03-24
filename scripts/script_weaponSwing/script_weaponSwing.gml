@@ -1,5 +1,13 @@
+/* DESCRIPTION:
+	- Spawns specified weapon swing object at calling instance
+	- Rotates weapon swing towards mouse position at the time of attack
+	- Links calling instances with weapon swing's following variable
+*/
+
 //VARIABLES REQUIRED FROM CALLING INSTANCE
-//following, attackDamage
+//attackDamage
+//VARIABLES REQUIRED FROM CALLED WEAPON SWING
+//following
 
 //transfer argument into readable variable
 weaponSwing = argument0;

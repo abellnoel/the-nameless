@@ -9,3 +9,6 @@ if (canAttack) {
 		canAttack = false;
 	}
 }
+
+//Talent (Blocking)
+

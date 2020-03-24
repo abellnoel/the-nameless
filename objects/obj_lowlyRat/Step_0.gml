@@ -11,7 +11,7 @@ if (instance_exists(obj_kingRat)) {
 	closestKing = instance_nearest(x, y, obj_kingRat);
 	script_execute(script_movementSwarm, closestKing);
 }
-//Normal attack (scurry)
+//Normal movement (scurry)
 else {
 	script_execute(script_movementScurry);
 }

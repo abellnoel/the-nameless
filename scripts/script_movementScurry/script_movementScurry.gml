@@ -1,3 +1,9 @@
+/* DESCRIPTION
+	- Calling instance will randomly select positions in a box around itself
+	- Box size defined by calling instance's scurryRange (half the length/height of the box)
+	- Positions selected that are outside of the room boundaries are re-randomized
+*/
+
 //VARIABLES REQUIRED FROM CALLING INSTANCE
 //move, xMove, yMove, scurryRange
 
