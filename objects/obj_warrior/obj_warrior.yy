@@ -123,7 +123,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
+            "value": "0.25",
             "varName": "rechargeRate",
             "varType": 0
         }
