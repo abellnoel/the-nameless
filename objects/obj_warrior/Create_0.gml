@@ -4,3 +4,4 @@ event_inherited();
 
 //For blocking
 blockMeter = maxBlock;
+broken = false;
