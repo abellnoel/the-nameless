@@ -3,8 +3,11 @@
 //For movement
 lastDir = direction;
 
-//For combat
+//For combat, values stored in different variables so original values can be referenced
 hp = maxHealth;
+attackDamage = dmg;
+moveSpeed = spd;
+attackSpeed = aspd;
 
 canAttack = true;
 
