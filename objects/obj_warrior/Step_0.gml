@@ -46,10 +46,8 @@ if (canAttack) {
 	}
 }
 
-if (!blocking) { //no damage taken when blocking
-	//DAMAGE TAKEN EFFECT
-	script_execute(script_damageTakenEffect);
-}
+//DAMAGE TAKEN EFFECT
+script_execute(script_damageTakenEffect);
 
 //Talent (Blocking)
 script_execute(script_talentBlock);

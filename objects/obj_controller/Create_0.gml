@@ -16,3 +16,9 @@ enemyList = [obj_lowlyRat, obj_highRat, obj_highRatWarrior, obj_kingRat];
 
 //PLAYER SPAWN (TEMP)
 instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_warrior);
+
+//LIST ALL TYPES OF STATUS EFFECTS
+enum STATUS_EFFECT {
+	NONE,
+	BLOCKING
+}
