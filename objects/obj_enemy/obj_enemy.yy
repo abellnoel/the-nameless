@@ -87,7 +87,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "moveSpeed",
+            "varName": "spd",
             "varType": 0
         },
         {
@@ -101,7 +101,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "attackSpeed",
+            "varName": "aspd",
             "varType": 0
         },
         {
@@ -115,7 +115,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "attackDamage",
+            "varName": "dmg",
             "varType": 0
         }
     ],
