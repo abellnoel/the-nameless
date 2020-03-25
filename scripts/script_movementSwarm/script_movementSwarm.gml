@@ -6,6 +6,8 @@
 
 //VARIABLES REQUIRED FROM CALLING INSTANCE
 //move, xMove, yMove, swarmRange
+//ARGUMENTS
+//argument0, master, instance that will be swarmed around
 
 //move argument into named variable
 master = argument0;
