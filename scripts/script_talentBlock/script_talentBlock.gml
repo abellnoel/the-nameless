@@ -13,11 +13,15 @@
 */
 
 //VARIABLES REQUIRED FROM CALLING INSTANCE
-//hp, lastHp, status, blockColor
+//hp, lastHp, status, blockColor, maxBlock, blockMeter, decayRate, rechargeRate 
 if (mouse_check_button(mb_right)) { //if holding right click
 	//give player BLOCKING status effect
 	status = STATUS_EFFECT.BLOCKING;	
 	image_blend = blockColor; //color overlay on player while blocking
+	//drain block meter
+	if (alarm[11] == -1) {//if alarm is not currently active
+		alarm[11] = room_speed * decayRate; 
+	}
 }
 if (mouse_check_button_released(mb_right)) { //once released
 	status = STATUS_EFFECT.NONE; //remove blocking status effect

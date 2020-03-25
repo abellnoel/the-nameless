@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
+        },
+        {
+            "id": "0a1cf6a7-75b7-41fb-b979-cdab5796fe82",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 2,
+            "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
+        },
+        {
+            "id": "09772091-9b8b-4746-a0ae-1552a04cc11c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -64,6 +84,48 @@
             "value": "$FFFFF67C",
             "varName": "blockColor",
             "varType": 7
+        },
+        {
+            "id": "817d0469-938a-4f37-a743-c9cbf07e6fca",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "maxBlock",
+            "varType": 0
+        },
+        {
+            "id": "335bb828-c7b4-4925-b5c5-d56af0b73b5e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "decayRate",
+            "varType": 0
+        },
+        {
+            "id": "9feaa1a4-4f22-48a0-9ed9-c53c66339eb2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.1",
+            "varName": "rechargeRate",
+            "varType": 0
         }
     ],
     "solid": false,
