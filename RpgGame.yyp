@@ -42,7 +42,7 @@
             "Key": "03c7640a-9cf9-4dbd-881f-4ef919f0eb19",
             "Value": {
                 "id": "c1cff114-ab32-4575-b69b-813f17a9e2cc",
-                "resourcePath": "sprites\\spr_highRat\\spr_highRat.yy",
+                "resourcePath": "sprites\\spr_highRatL\\spr_highRatL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "06fb7106-4e1e-49b3-b15b-4d52c79a6a54",
             "Value": {
                 "id": "a08d1f71-fca7-4068-a6ee-8aa0f7a2c289",
-                "resourcePath": "sprites\\spr_lowlyRat\\spr_lowlyRat.yy",
+                "resourcePath": "sprites\\spr_lowlyRatL\\spr_lowlyRatL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "2840320f-3d2f-4a9d-8243-9db857aca2bb",
             "Value": {
                 "id": "b1fd37c8-904b-4202-b7a6-f0ec03c49dc0",
-                "resourcePath": "sprites\\spr_highRatWarrior\\spr_highRatWarrior.yy",
+                "resourcePath": "sprites\\spr_highRatWarriorL\\spr_highRatWarriorL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,10 +167,50 @@
             }
         },
         {
+            "Key": "30b27d73-3dff-4233-ab62-412447027531",
+            "Value": {
+                "id": "2fd70d17-156e-476d-995c-91a6c1524f18",
+                "resourcePath": "sprites\\spr_highRatShamanL\\spr_highRatShamanL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "313c696b-966a-4114-b361-d5252ab652c4",
+            "Value": {
+                "id": "0839e774-8c93-414d-ba45-2e47d2acfd64",
+                "resourcePath": "sprites\\spr_highRatCrossbowmanR\\spr_highRatCrossbowmanR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32d20cc7-2e50-47c8-8c3c-7bd862ec233b",
+            "Value": {
+                "id": "1fcd9ed0-be53-476f-806b-9d88dfcd57d9",
+                "resourcePath": "sprites\\spr_highRatArcherL\\spr_highRatArcherL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "37f92b04-dd6f-4bf5-80d4-44625e73c4bf",
+            "Value": {
+                "id": "8c03a7bf-dbc8-43cf-9cbb-b669bb8eaa83",
+                "resourcePath": "sprites\\spr_highRatArcherR\\spr_highRatArcherR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "398a77c9-d9ef-4803-8adf-900542fe6c12",
             "Value": {
                 "id": "dffcabf4-6c67-44d4-aaa9-546478bf87c7",
                 "resourcePath": "sprites\\spr_swordSlash\\spr_swordSlash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3aaee693-3779-4620-a3cc-e85c9cff73f7",
+            "Value": {
+                "id": "1252220a-1cab-4220-beb2-bcdf627dda34",
+                "resourcePath": "sprites\\spr_lowlyRatR\\spr_lowlyRatR.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -191,6 +231,22 @@
             }
         },
         {
+            "Key": "4d72c7c2-1fa3-461f-8be8-f187a7ebcdf5",
+            "Value": {
+                "id": "639d2914-94c7-4e92-877f-0ce86cf0a57f",
+                "resourcePath": "objects\\obj_highRatArcher\\obj_highRatArcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e364c8b-22ee-4ad3-853b-d47a175fe8d7",
+            "Value": {
+                "id": "631ae32e-81f9-490d-8596-e3213b34de60",
+                "resourcePath": "sprites\\spr_kingRatR\\spr_kingRatR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f5012d0-ee62-4efe-9415-3e442b39a039",
             "Value": {
                 "id": "0631da51-11d8-440b-bc64-f2e2deb38b1d",
@@ -199,11 +255,27 @@
             }
         },
         {
+            "Key": "50db8aeb-663f-45cd-bd52-f90ec768c5f6",
+            "Value": {
+                "id": "6a2ce585-e3ce-4b9a-907f-df806df83a04",
+                "resourcePath": "sprites\\spr_highRatR\\spr_highRatR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a4d4604-7a66-478e-9641-3f7272edf909",
             "Value": {
                 "id": "0c7c3a83-a170-4b4c-b136-564fa6fb232b",
                 "resourcePath": "objects\\obj_highRat\\obj_highRat.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5f0cf7ef-fe5b-4b5d-8dc0-3df1311baccf",
+            "Value": {
+                "id": "8274cd4d-53ea-4cbd-b8a3-8abadbbb14fe",
+                "resourcePath": "sprites\\spr_highRatCrossbowmanL\\spr_highRatCrossbowmanL.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -370,7 +442,7 @@
             "Key": "b2a325e4-35ca-4753-80d3-6715375b5471",
             "Value": {
                 "id": "c2937546-b993-41e9-80c2-aeb4a4ea618d",
-                "resourcePath": "sprites\\spr_kingRat\\spr_kingRat.yy",
+                "resourcePath": "sprites\\spr_kingRatL\\spr_kingRatL.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -380,6 +452,14 @@
                 "id": "e2477e9a-a70e-4903-a563-4ad62fa70d9a",
                 "resourcePath": "views\\bbdfdb2b-236f-4e5f-925c-65aa0ea81c63.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd98d40b-5db7-4ce4-afec-1e7377de19d0",
+            "Value": {
+                "id": "59e43dcc-c2b0-4926-9292-754edd9f508d",
+                "resourcePath": "sprites\\spr_highRatShamanR\\spr_highRatShamanR.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +511,14 @@
             }
         },
         {
+            "Key": "e243d11c-f268-4896-bfda-fd5f82b6fa97",
+            "Value": {
+                "id": "2910d04e-e22e-4b79-a153-3861086e8c5d",
+                "resourcePath": "objects\\obj_highRatCrossbowman\\obj_highRatCrossbowman.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e276a04a-f0af-4c76-bbfd-ad5a3e773b92",
             "Value": {
                 "id": "4dff4d09-3d0d-4119-ad1c-7d6f9c5e8b29",
@@ -447,6 +535,14 @@
             }
         },
         {
+            "Key": "e92f2e25-72fe-4696-afa0-e2262da04fd4",
+            "Value": {
+                "id": "7a82b97e-0bb5-4a9e-87a8-ac9befe6e387",
+                "resourcePath": "sprites\\spr_highRatWarriorR\\spr_highRatWarriorR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e93ab07e-dbb2-456a-974d-1ee6af76cb68",
             "Value": {
                 "id": "7c607d90-0c85-4faa-bd8d-ebd7fc7a0a27",
@@ -460,6 +556,14 @@
                 "id": "a0077629-0b42-4c28-bc20-92b38d2ac397",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7e3b06a-89b3-4d68-bbea-5fb8cc12f61b",
+            "Value": {
+                "id": "5f403b64-1e42-488f-9021-e09919a5cf6f",
+                "resourcePath": "objects\\obj_highRatShaman\\obj_highRatShaman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
