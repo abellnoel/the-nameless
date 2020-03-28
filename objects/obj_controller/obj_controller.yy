@@ -63,6 +63,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "0da1eb03-cf56-41f6-8fe8-a58e77d047b2"
+        },
+        {
+            "id": "91e15d95-ee58-4a30-bf70-347f93715e04",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "0da1eb03-cf56-41f6-8fe8-a58e77d047b2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -137,6 +147,48 @@
             "value": "$FF0000FF",
             "varName": "damageTakenColor",
             "varType": 7
+        },
+        {
+            "id": "113c0a0b-d6df-4860-a507-c1282960bd7f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_width \/ 2",
+            "varName": "playerSpawnX",
+            "varType": 0
+        },
+        {
+            "id": "3f82b56b-beb3-4680-ae0b-5d089da3c6b2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "room_height - 100",
+            "varName": "playerSpawnY",
+            "varType": 0
+        },
+        {
+            "id": "b95a3e3c-0e2f-4f40-ad0b-f48eacf5f942",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_warrior",
+            "varName": "playerClass",
+            "varType": 5
         }
     ],
     "solid": false,

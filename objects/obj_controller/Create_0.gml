@@ -8,6 +8,10 @@ global.damageTakenColor = damageTakenColor;
 global.healthBarAboveOffset = healthBarAboveOffset;
 global.healthBarThickness = healthBarThickness;
 
+//PLAYER CAMERA
+playerCamera = camera_create();
+camera_set_view_size(playerCamera, 480, 270);
+
 //ENEMY SPAWN
 chosenSpawn = obj_lowlyRat //default
 //BOTH LISTS MUST BE SAME LENGTH, SAME INDEX CORRESPONDS TO SPAWN KEY
@@ -15,8 +19,8 @@ keyList = [vk_numpad1, vk_numpad2, vk_numpad3, vk_numpad4, vk_numpad5, vk_numpad
 enemyList = [obj_lowlyRat, obj_highRat, obj_highRatWarrior, obj_highRatArcher, 
 				obj_highRatCrossbowman, obj_highRatShaman, obj_kingRat];
 
-//PLAYER SPAWN (TEMP)
-instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_warrior);
+//PLAYER SPAWN
+instance_create_layer(playerSpawnX, playerSpawnY, "Instances", playerClass);
 
 //LIST ALL TYPES OF STATUS EFFECTS
 enum STATUS_EFFECT {

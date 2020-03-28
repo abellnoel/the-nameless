@@ -5,16 +5,6 @@
     "name": "obj_warrior",
     "eventList": [
         {
-            "id": "96e799bd-59ad-4f35-ba2c-38867d93742f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
-        },
-        {
             "id": "762727c3-d323-4255-b390-a814849ac245",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
+        },
+        {
+            "id": "4ff049a4-9a06-4e65-90ca-cfafe39e31de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "7acea554-0fa1-4011-9d64-021a6d514837"
         }
     ],

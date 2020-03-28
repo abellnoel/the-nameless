@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0f719e8d-4980-48c2-81f2-726192a5cb07",
+            "Value": {
+                "id": "891ec195-99d7-4b2c-b456-16d14aaa74ac",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fa2b49e-4f37-4694-8f3b-240a8a3e3448",
             "Value": {
                 "id": "a5105e07-7c3f-4b7f-9f0d-8c7e5bbdb20e",
@@ -114,7 +122,7 @@
             "Key": "1ea28d6b-a5c1-4fb3-b3ac-d4b20a472cbc",
             "Value": {
                 "id": "b280092e-4157-4706-a9c6-cfeabb30fabf",
-                "resourcePath": "tilesets\\tileset_tavernTilesetTEMP\\tileset_tavernTilesetTEMP.yy",
+                "resourcePath": "tilesets\\tileset_tavernFloor\\tileset_tavernFloor.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -378,7 +386,7 @@
             "Key": "98f315aa-2fab-4843-a831-d3dc9157204d",
             "Value": {
                 "id": "c583ce56-d4c1-43a8-b4d9-2e982b158b38",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -468,6 +476,14 @@
                 "id": "06ed75e6-ac8e-4ed9-9dbb-156da4b75f56",
                 "resourcePath": "views\\bfa90276-97df-4191-a817-91dbf6502c6c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4a02dd2-9498-4378-a73b-4c6a19e651f8",
+            "Value": {
+                "id": "5d8fc512-abf3-41c7-97de-202a785dd630",
+                "resourcePath": "sprites\\spr_tavernFloorTile\\spr_tavernFloorTile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

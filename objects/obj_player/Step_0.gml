@@ -25,6 +25,9 @@ else {
 	direction = lastDir;
 	speed = 0;
 }
+//prevent leaving room
+x = clamp(x, 0 + sprite_xoffset, room_width + sprite_xoffset);
+y = clamp(y, 0 + sprite_yoffset, room_height - sprite_yoffset);
 
 //ATTACK SPEED ALARM 
 //FOR CHILDREN: Set canAttack to false in basic attack code after basic attack occurs

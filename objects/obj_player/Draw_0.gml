@@ -9,6 +9,9 @@ if (global.debugf1) {
 	draw_text(x, bbox_top - 60, "direction = " + string(direction));
 	//show health
 	draw_text(x, bbox_top - 80, "health = " + string(hp));
+	//show position
+	draw_text(x, bbox_top - 100, "x = " + string(x));
+	draw_text(x, bbox_top - 120, "y = " + string(y));
 }
 
 //HEALTH BAR
