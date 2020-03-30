@@ -20,7 +20,7 @@ if (hinput != 0 or vinput != 0) {
 	y += lengthdir_y(moveSpeed, dir);
 }
 //prevent leaving room
-x = clamp(x, 0 + sprite_xoffset, room_width + sprite_xoffset);
+x = clamp(x, 0 + sprite_xoffset, room_width - sprite_width);
 y = clamp(y, 0 + sprite_yoffset, room_height - sprite_yoffset);
 
 //ATTACK SPEED ALARM 
