@@ -20,8 +20,13 @@ if (hinput != 0 or vinput != 0) {
 	y += lengthdir_y(moveSpeed, dir);
 }
 //prevent leaving room
-x = clamp(x, 0 + sprite_xoffset, room_width - sprite_width);
-y = clamp(y, 0 + sprite_yoffset, room_height - sprite_yoffset);
+//define offsets based on bounding box
+var rightOffset = sprite_xoffset - (sprite_xoffset - (bbox_right - x));
+var leftOffset = sprite_xoffset - (sprite_xoffset - (x - bbox_left));
+var topOffset = sprite_yoffset - (sprite_yoffset - (y - bbox_top));
+var botOffset = sprite_yoffset - (sprite_yoffset - (bbox_bottom - y));
+x = clamp(x, 0 + leftOffset, room_width - rightOffset);
+y = clamp(y, 0 + topOffset, room_height - botOffset);
 
 //ATTACK SPEED ALARM 
 //FOR CHILDREN: Set canAttack to false in basic attack code after basic attack occurs
