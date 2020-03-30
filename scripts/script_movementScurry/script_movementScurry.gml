@@ -13,7 +13,7 @@ if (move) {
 	yMove = irandom_range(y - scurryRange, y + scurryRange);
 	//chooses new point if point chosen was offscreen
 	if (point_in_rectangle(xMove, yMove, 0, 0, room_width, room_height)) { 
-		
+
 		//changes sprite based on what direction it is heading
 		if (xMove > x) {
 			sprite_index = spriteRight;

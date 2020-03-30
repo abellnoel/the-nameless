@@ -1,8 +1,5 @@
-//delete object if hp hits 0
-if (hp <= 0) {
-	instance_create_layer(x, y, "Instances", obj_enemyDeath);
-	instance_destroy();
-}
+//DEATH AND ANIMATION
+script_execute(script_deathAnimation, obj_bloodBurst);
 
-//damage taken effect
+//DAMAGE TAKEN EFFECT
 script_execute(script_damageTakenEffect);
