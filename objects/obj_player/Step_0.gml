@@ -16,14 +16,8 @@ vinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 dir = point_direction(0, 0, hinput, vinput)
 //if moving
 if (hinput != 0 or vinput != 0) {
-	speed = moveSpeed;
-	direction = dir;
-	lastDir = dir;
-}
-//if not moving
-else {
-	direction = lastDir;
-	speed = 0;
+	x += lengthdir_x(moveSpeed, dir);
+	y += lengthdir_y(moveSpeed, dir);
 }
 //prevent leaving room
 x = clamp(x, 0 + sprite_xoffset, room_width + sprite_xoffset);

@@ -3,7 +3,7 @@ if (instance_exists(obj_player)) {
 	x = obj_player.x;
 	y = obj_player.y;
 }
-//follow closest enemy to where player died
+//camera moves to nearest enemy once player is killed
 else {
 	enemyFollow = instance_nearest(x, y, obj_enemy);
 	x = enemyFollow.x;
