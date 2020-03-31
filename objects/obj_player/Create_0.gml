@@ -8,7 +8,6 @@ hp = maxHealth;
 attackDamage = dmg;
 moveSpeed = spd;
 attackSpeed = aspd;
-
 canAttack = true;
 
 //For damageTakenEffect script

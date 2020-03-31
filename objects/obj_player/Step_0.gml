@@ -14,10 +14,25 @@ vinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 //				|
 //			 (0, 1)
 dir = point_direction(0, 0, hinput, vinput)
-//if moving
-if (hinput != 0 or vinput != 0) {
-	x += lengthdir_x(moveSpeed, dir);
+
+//if moving with collision detection when object is marked solid
+if (vinput == -1 and place_free(x, y - moveSpeed)) {
+	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
+}
+
+if (vinput == 1 and place_free(x, y + moveSpeed)) {
+	//x += lengthdir_x(moveSpeed, dir);
+	y += lengthdir_y(moveSpeed, dir);
+}
+if (hinput == -1 and place_free(x - moveSpeed, y)) {
+	x += lengthdir_x(moveSpeed, dir);
+	//y += lengthdir_y(moveSpeed, dir);
+}
+
+if (hinput == 1 and place_free(x + moveSpeed, y)) {
+	x += lengthdir_x(moveSpeed, dir);
+	//y += lengthdir_y(moveSpeed, dir);
 }
 //prevent leaving room
 //define offsets based on bounding box
