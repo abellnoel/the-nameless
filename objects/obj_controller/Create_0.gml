@@ -8,10 +8,6 @@ global.damageTakenColor = damageTakenColor;
 global.healthBarAboveOffset = healthBarAboveOffset;
 global.healthBarThickness = healthBarThickness;
 
-//PLAYER CAMERA
-playerCamera = camera_create();
-camera_set_view_size(playerCamera, 480, 270);
-
 //ENEMY SPAWN
 chosenSpawn = obj_lowlyRat //default
 //BOTH LISTS MUST BE SAME LENGTH, SAME INDEX CORRESPONDS TO SPAWN KEY
