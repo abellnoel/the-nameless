@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "e369e887-d087-4e4f-9ae5-2c4879c32827",
+            "Value": {
+                "id": "449a208f-006c-4d7d-a069-cc9ceff09087",
+                "resourcePath": "scripts\\script_attackSummon\\script_attackSummon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e726a1ac-93e9-40bc-ab7c-3aa68f77892a",
             "Value": {
                 "id": "695ad0a3-3345-4e91-9766-745e0a4f0475",
@@ -687,7 +695,8 @@
         "97614955-eb74-481d-9394-44dac135a566",
         "062ac77c-a81c-452e-be42-c134ae99ef87",
         "2f21241b-1402-462c-9d42-85d01518d699",
-        "aeb16221-b254-49d4-9a04-e1af8a7a5061"
+        "aeb16221-b254-49d4-9a04-e1af8a7a5061",
+        "e369e887-d087-4e4f-9ae5-2c4879c32827"
     ],
     "tutorial": ""
 }
