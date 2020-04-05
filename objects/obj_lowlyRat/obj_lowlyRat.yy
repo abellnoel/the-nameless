@@ -23,16 +23,6 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "0b7043b6-b5ad-41b6-a4db-29b5b1322da7"
-        },
-        {
-            "id": "adf340f8-0e76-49c6-9edf-e76429245d82",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "0b7043b6-b5ad-41b6-a4db-29b5b1322da7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -111,6 +101,20 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "swarmRange",
+            "varType": 0
+        },
+        {
+            "id": "29c8f0b4-8dbe-45c0-ab10-66fd110da863",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "scurryBehavior",
             "varType": 0
         }
     ],

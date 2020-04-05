@@ -1,10 +1,10 @@
-/// @description Movement and attack code
-
+/// @description Scurry only
 // Inherit the parent event
 event_inherited();
 
-//Movement
-script_execute(script_movementScurry);
-
-//Attack code
+//Attack
 script_execute(script_attackContact);
+
+//Movement
+script_execute(script_movementScurry, scurryBehavior);
+

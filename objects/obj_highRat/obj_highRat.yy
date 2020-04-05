@@ -5,16 +5,6 @@
     "name": "obj_highRat",
     "eventList": [
         {
-            "id": "2b0a5d87-80cd-4ca7-b728-d9f2086afd94",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "5a4d4604-7a66-478e-9641-3f7272edf909"
-        },
-        {
             "id": "a2809254-bf6c-42c6-ae77-0e5697ed100f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -25,13 +15,13 @@
             "m_owner": "5a4d4604-7a66-478e-9641-3f7272edf909"
         },
         {
-            "id": "f6b12a17-6002-4060-850e-1e4bb93e074b",
+            "id": "2bc5dcfb-6e8f-46a4-8ac7-a7f5f752875a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
+            "eventtype": 3,
             "m_owner": "5a4d4604-7a66-478e-9641-3f7272edf909"
         }
     ],
@@ -97,6 +87,34 @@
             "resourceFilter": 1023,
             "value": "250",
             "varName": "scurryRange",
+            "varType": 0
+        },
+        {
+            "id": "1e18436d-b1ff-4d27-89ff-9871ffbeda33",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "detectRange",
+            "varType": 0
+        },
+        {
+            "id": "f22f44aa-9dfe-440b-afc3-8aef3a83aa9a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "scurryBehavior",
             "varType": 0
         }
     ],

@@ -5,16 +5,6 @@
     "name": "obj_highRatCrossbowman",
     "eventList": [
         {
-            "id": "e4f12290-ef30-4bbd-81db-3cc7be1cf287",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e243d11c-f268-4896-bfda-fd5f82b6fa97"
-        },
-        {
             "id": "7db1398a-40fd-4392-a69e-838b5dcf668f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e243d11c-f268-4896-bfda-fd5f82b6fa97"
-        },
-        {
-            "id": "6c1e7f5f-c813-45a5-b43c-c591bf14d07c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
             "m_owner": "e243d11c-f268-4896-bfda-fd5f82b6fa97"
         }
     ],

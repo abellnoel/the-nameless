@@ -23,16 +23,6 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "651b529d-2052-4a77-9916-67b0110047f9"
-        },
-        {
-            "id": "e820fbf9-e7f3-4da3-b163-cf2c213b8280",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "651b529d-2052-4a77-9916-67b0110047f9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -51,7 +41,7 @@
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "de5bf515-d5e1-4676-8834-7b3c11df73db",
-            "value": "1.5"
+            "value": "2"
         },
         {
             "id": "da596029-b392-440a-9e50-c54b9e6393c4",
@@ -97,6 +87,34 @@
             "resourceFilter": 1023,
             "value": "250",
             "varName": "scurryRange",
+            "varType": 0
+        },
+        {
+            "id": "28359efc-5d18-4315-8d5c-9855508efee0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "detectRange",
+            "varType": 0
+        },
+        {
+            "id": "8e6b9625-4855-4204-a8e3-0f5a16edac41",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "scurryBehavior",
             "varType": 0
         }
     ],

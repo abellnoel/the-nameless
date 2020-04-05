@@ -13,5 +13,5 @@ if (instance_exists(obj_kingRat)) {
 }
 //Normal movement (scurry)
 else {
-	script_execute(script_movementScurry);
+	script_execute(script_movementScurry, scurryBehavior);
 }

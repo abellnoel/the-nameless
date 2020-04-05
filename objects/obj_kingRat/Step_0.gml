@@ -4,7 +4,4 @@
 event_inherited();
 
 //Movement
-script_execute(script_movementScurry);
-
-//Attack code
-script_execute(script_attackContact);
+script_execute(script_movementScurry, scurryBehavior);
