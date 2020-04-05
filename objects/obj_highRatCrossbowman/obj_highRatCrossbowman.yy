@@ -59,7 +59,7 @@
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "cdb27e45-79b2-4c1d-b2ee-18aecbb8b579",
-            "value": "5"
+            "value": "20"
         },
         {
             "id": "845297b9-da40-4090-bef4-b485d5dce91e",
@@ -67,10 +67,10 @@
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "cda78b07-c070-4178-a09f-ee28a5296005",
-            "value": "1"
+            "value": "1.2"
         }
     ],
-    "parentObjectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
+    "parentObjectId": "4d72c7c2-1fa3-461f-8be8-f187a7ebcdf5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -85,20 +85,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "3008bb28-f72f-4b6b-a333-90d70527a04a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "250",
-            "varName": "scurryRange",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "5f0cf7ef-fe5b-4b5d-8dc0-3df1311baccf",

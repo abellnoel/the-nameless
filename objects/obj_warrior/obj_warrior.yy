@@ -53,7 +53,31 @@
             "mvc": "1.0",
             "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "propertyId": "7ee9e060-4a03-49e3-bb1a-834235776237",
-            "value": "25"
+            "value": "40"
+        },
+        {
+            "id": "15b0689d-aa16-40ad-9026-c1bbd5475215",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "5245bd5d-f63a-4405-8fd0-b6f496608005",
+            "value": "200"
+        },
+        {
+            "id": "34b597d9-af84-4a98-801f-a3f5bfeaf914",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "f7a8bfed-0643-4542-997f-284d2bad4ac9",
+            "value": "6"
+        },
+        {
+            "id": "90a08052-3d0d-4826-be78-d0c59bffbe27",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "413389b6-7bf1-4a51-a6ba-519edf48f3f2",
+            "value": "0.6"
         }
     ],
     "parentObjectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
