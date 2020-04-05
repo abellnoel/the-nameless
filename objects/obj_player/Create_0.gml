@@ -4,6 +4,7 @@
 lastDir = direction;
 
 //For combat, values stored in different variables so original values can be referenced
+maxHealth = maxHp;
 hp = maxHealth;
 attackDamage = dmg;
 moveSpeed = spd;

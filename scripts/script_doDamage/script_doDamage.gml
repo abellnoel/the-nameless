@@ -18,6 +18,9 @@ switch (target.status) {
 	case STATUS_EFFECT.BLOCKING:
 		dmg /= 2; 
 		break;
+	case STATUS_EFFECT.INVINCIBLE:
+		dmg = 0;
+		break;
 }
 
 //do damage, modified or not

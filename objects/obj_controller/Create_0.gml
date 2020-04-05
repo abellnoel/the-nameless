@@ -7,6 +7,8 @@ global.damageTakenColor = damageTakenColor;
 //health bar
 global.healthBarAboveOffset = healthBarAboveOffset;
 global.healthBarThickness = healthBarThickness;
+//godmode toggle
+godmode = false;
 
 //ENEMY SPAWN
 chosenSpawn = obj_lowlyRat //default
@@ -21,5 +23,6 @@ instance_create_layer(playerSpawnX, playerSpawnY, "Instances", playerClass);
 //LIST ALL TYPES OF STATUS EFFECTS
 enum STATUS_EFFECT {
 	NONE,
-	BLOCKING
+	BLOCKING,
+	INVINCIBLE,
 }

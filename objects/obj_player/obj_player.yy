@@ -83,7 +83,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "maxHealth",
+            "varName": "maxHp",
             "varType": 0
         },
         {
