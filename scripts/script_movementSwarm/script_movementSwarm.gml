@@ -11,6 +11,7 @@
 
 //move argument into named variable
 master = argument0;
+scurryBox = swarmRange;
 
 //pick random place to move around master
 if (move) {
