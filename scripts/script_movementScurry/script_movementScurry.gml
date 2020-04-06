@@ -24,8 +24,9 @@ if (move) {
 		if (instance_exists(obj_player)) {
 			var playerDir = point_direction(x, y, obj_player.x, obj_player.y);
 			var opposite = playerDir + 180;
-			//shift scurry box away from or towards player
-			if (distance_to_object(obj_player) < detectRange) {
+			//shift scurry box away from or towards player when the player is not behind wall
+			if (distance_to_object(obj_player) < detectRange 
+			&& !collision_line(x, y, obj_player.x, obj_player.y, obj_solid, true, false)) {
 				scurryBox = 100;
 				if (behavior == 1) {
 					var dir = opposite;
@@ -40,10 +41,14 @@ if (move) {
 	}		
 	xMove = irandom_range(originX - scurryBox, originX + scurryBox);
 	yMove = irandom_range(originY - scurryBox, originY + scurryBox);
+	
 	//choose new point if any solids in line to move
-	if (collision_line(x, y, xMove, yMove, obj_solid, true, false)) {
-		exit; //start from top
-	}
+	if (collision_line(x, y, xMove, yMove, obj_solid, true, false) 
+	|| collision_line(x, y, xMove + sprite_xoffset, yMove + sprite_yoffset, obj_solid, true, false) ) {
+		//Starts from the top
+		exit;
+	} 
+	
 	//point accepted if within bounds of room
 	if (point_in_rectangle(xMove, yMove, 0, 0, room_width, room_height)) { 
 		//changes sprite based on what direction it is heading
@@ -55,11 +60,12 @@ if (move) {
 		}
 		move = false;
 	}
-}
-else {
+	
+} else {
 	speed = moveSpeed;
 	//move towards chosen coordinates
 	if (distance_to_point(xMove, yMove) > moveSpeed) {
+		
 		move_towards_point(xMove, yMove, moveSpeed);
 	}
 	else {
