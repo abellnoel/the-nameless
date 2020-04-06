@@ -25,5 +25,7 @@ switch (target.status) {
 
 //do damage, modified or not
 target.hp -= dmg;
-target.image_blend = global.damageTakenColor;
-target.alarm[1] = room_speed * global.damageTakenDuration;
+if (target.image_blend == c_white) { //prevents overwriting existing color change effects
+	target.image_blend = global.damageTakenColor;
+	target.alarm[1] = room_speed * global.damageTakenDuration;
+}
