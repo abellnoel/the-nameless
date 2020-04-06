@@ -7,4 +7,3 @@ script_execute(script_attackContact);
 
 //Movement
 script_execute(script_movementScurry, scurryBehavior);
-

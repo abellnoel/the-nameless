@@ -7,7 +7,7 @@ if (!godmode and instance_exists(obj_player)) {
 	obj_player.moveSpeed = 10;
 	godmode = true;
 }
-else {
+else if (instance_exists(obj_player)) {
 	obj_player.maxHealth = obj_player.maxHp;
 	obj_player.hp = obj_player.maxHp;
 	obj_player.attackSpeed = obj_player.aspd;
