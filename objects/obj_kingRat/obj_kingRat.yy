@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "651b529d-2052-4a77-9916-67b0110047f9"
+        },
+        {
+            "id": "c9f96c62-040c-419b-a293-0d848f06ba3e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 2,
+            "m_owner": "651b529d-2052-4a77-9916-67b0110047f9"
+        },
+        {
+            "id": "82bd31cb-2015-4ceb-a9fa-c011d3714c39",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 2,
+            "m_owner": "651b529d-2052-4a77-9916-67b0110047f9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -115,6 +135,48 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "scurryBehavior",
+            "varType": 0
+        },
+        {
+            "id": "5a764dc3-2402-4f1f-a6b2-35ad142a2c53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "slamDelay",
+            "varType": 0
+        },
+        {
+            "id": "40c3b366-7f14-468b-890a-aea81a8969ba",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FFFF0094",
+            "varName": "slamWarningColor",
+            "varType": 7
+        },
+        {
+            "id": "f95dd3c1-52c7-4186-b2f5-3944b212cf5e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "slamAttackSpeed",
             "varType": 0
         }
     ],

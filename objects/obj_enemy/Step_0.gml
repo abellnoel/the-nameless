@@ -1,9 +1,6 @@
 //DEATH AND ANIMATION
 script_execute(script_deathAnimation, obj_bloodBurst);
 
-//DAMAGE TAKEN EFFECT
-script_execute(script_damageTakenEffect);
-
 /*
 inst = instance_place(x, y, obj_solid);
 //if moving with collision detection when object is marked solid

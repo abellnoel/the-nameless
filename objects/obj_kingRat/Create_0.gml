@@ -13,3 +13,6 @@ canAttack = true;
 //sprite change (direction that it is moving or facing)
 spriteLeft = spr_kingRatL;
 spriteRight = spr_kingRatR;
+
+//initial delay til first slam attack
+alarm[11] = room_speed * slamAttackSpeed;
