@@ -19,6 +19,12 @@ swing = instance_create_layer(x, y, "Instances", weaponSwing);
 swing.damage = attackDamage;
 
 //swing is faced toward mouse
-swingDir = point_direction(x, y, mouse_x, mouse_y); 
+if(object_index == obj_highRatWarrior) {
+	if(instance_exists(obj_player)) {
+		swingDir = point_direction(x, y, obj_player.x, obj_player.y); 
+	}
+} else {
+	swingDir = point_direction(x, y, mouse_x, mouse_y); 
+}
 swing.image_angle = swingDir;
 swing.following = id; //set swing to follow calling instance

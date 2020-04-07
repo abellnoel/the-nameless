@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "ab0fed02-d198-4fa3-9c47-ca9a631c09f5",
+            "Value": {
+                "id": "1a92655a-b0f3-47b8-8029-8a72c59f57db",
+                "resourcePath": "objects\\obj_enemySwordSlash\\obj_enemySwordSlash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ab5ef2c7-fa60-409b-a874-dfd5543101cb",
             "Value": {
                 "id": "0063d5fa-ab8e-4aa1-a8f4-ef3d6d4781c5",

@@ -13,6 +13,10 @@
 dmg = argument0;
 target = argument1; 
 
+if (object_index == obj_highRatWarrior) {
+	script_execute(script_weaponSwing, obj_enemySwordSlash);
+}
+
 //DAMAGE MODIFICATIONS BASED ON STATUS EFFECTS, CAN BE EXPANDED
 switch (target.status) {
 	case STATUS_EFFECT.BLOCKING:
