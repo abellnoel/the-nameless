@@ -1,4 +1,4 @@
-/// Room Change alarm
+/// @desc Room Change alarm
 
 //Need to add more details later
 show_message("Level Complete!")

@@ -14,3 +14,7 @@ if(instance_number(obj_enemy) == 0){
 if(room_complete) {	
 	alarm_set(0,1)
 }
+//Player dies
+if (!instance_exists(obj_player)) { 
+	dead = true;
+}

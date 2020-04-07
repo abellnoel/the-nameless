@@ -29,3 +29,4 @@ enum STATUS_EFFECT {
 
 //Win_condition variable
 room_complete = false
+dead = false;
