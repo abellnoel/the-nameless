@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0a2d8918-4b15-4d90-84d2-03adf0d01a31",
+            "Value": {
+                "id": "1c517650-d899-42ae-836c-ee995bb79250",
+                "resourcePath": "objects\\obj_arrow\\obj_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b0fb9cd-61f1-47fa-8f95-5c7496b564d3",
             "Value": {
                 "id": "bd419670-9808-4966-90f4-c1bfba677410",
@@ -220,6 +228,14 @@
                 "id": "1fcd9ed0-be53-476f-806b-9d88dfcd57d9",
                 "resourcePath": "sprites\\spr_highRatArcherL\\spr_highRatArcherL.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "33e7fe6c-71d3-4c0b-aa51-04cac69f3a85",
+            "Value": {
+                "id": "2480e715-ca75-40be-be08-aaa7fd8c21cc",
+                "resourcePath": "views\\33e7fe6c-71d3-4c0b-aa51-04cac69f3a85.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "719fa4be-4bd8-458c-8b8c-f624ef20f354",
+            "Value": {
+                "id": "a625e348-23d1-4ad9-b4ee-493c5077d7a2",
+                "resourcePath": "sprites\\spr_arrow\\spr_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74b77262-9461-464f-8721-311e2655d7ae",
             "Value": {
                 "id": "2232a708-0541-4386-b053-7796650bb55c",
@@ -412,6 +436,14 @@
                 "id": "f8b18d65-f06e-4960-8cff-0909172596c7",
                 "resourcePath": "objects\\obj_highRatWarrior\\obj_highRatWarrior.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8346b389-173d-4f00-be84-890f31eb689b",
+            "Value": {
+                "id": "a33778e7-651b-4250-b5bb-13a5b8bc5cc3",
+                "resourcePath": "sprites\\spr_crossbow_bolt\\spr_crossbow_bolt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -620,6 +652,14 @@
                 "id": "31be0fc7-3a43-4db6-8fa8-44b3d871f489",
                 "resourcePath": "views\\d008e8a2-cd45-4968-8a62-fb7e30d63e90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d418b543-188b-4868-8afb-99aac39fea91",
+            "Value": {
+                "id": "33de0880-bf0f-458d-a49f-bf3c40674ca4",
+                "resourcePath": "objects\\obj_crossbow_bolt\\obj_crossbow_bolt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
