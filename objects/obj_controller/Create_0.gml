@@ -26,3 +26,6 @@ enum STATUS_EFFECT {
 	BLOCKING,
 	INVINCIBLE,
 }
+
+//Win_condition variable
+room_complete = false

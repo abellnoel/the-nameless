@@ -6,3 +6,11 @@ for (var i = 0; i < array_length_1d(keyList); i++) {
 		chosenSpawn = enemyList[i];
 	}
 }
+
+//Room completion checks
+if(instance_number(obj_enemy) == 0){
+	room_complete = true;
+}
+if(room_complete) {	
+	alarm_set(0,1)
+}
