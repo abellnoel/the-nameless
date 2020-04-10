@@ -127,6 +127,48 @@
             "value": "10",
             "varName": "dmg",
             "varType": 0
+        },
+        {
+            "id": "178caeed-ce28-4abd-a074-1984f41f3670",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_player",
+            "varName": "spriteDown",
+            "varType": 5
+        },
+        {
+            "id": "e815a501-0b67-4c76-a3f1-03a29ed70d3b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_player",
+            "varName": "spriteUp",
+            "varType": 5
+        },
+        {
+            "id": "b96ff43b-9877-4e4f-a7d6-125d24c7456b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_player",
+            "varName": "spriteSide",
+            "varType": 5
         }
     ],
     "solid": false,

@@ -78,6 +78,30 @@
             "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "propertyId": "413389b6-7bf1-4a51-a6ba-519edf48f3f2",
             "value": "0.6"
+        },
+        {
+            "id": "855749b5-b68d-4636-b6ac-ba4d01409c40",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "e815a501-0b67-4c76-a3f1-03a29ed70d3b",
+            "value": "spr_warriorUp"
+        },
+        {
+            "id": "144ff86e-6c5f-4c33-b2a8-daab16bba9d6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "178caeed-ce28-4abd-a074-1984f41f3670",
+            "value": "spr_warriorDown"
+        },
+        {
+            "id": "6656db19-b133-4da5-a4f2-dc20f97721b6",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "b96ff43b-9877-4e4f-a7d6-125d24c7456b",
+            "value": "spr_warriorSide"
         }
     ],
     "parentObjectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
@@ -153,6 +177,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "a99439d5-79a3-41d3-bf20-2e850346d3f8",
+    "spriteId": "8a8f1fef-ff93-49af-9f0a-d05840c6cebe",
     "visible": true
 }
