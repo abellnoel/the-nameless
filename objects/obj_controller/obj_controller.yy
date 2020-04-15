@@ -216,7 +216,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "obj_warrior",
+            "value": "obj_mage",
             "varName": "playerClass",
             "varType": 5
         }
