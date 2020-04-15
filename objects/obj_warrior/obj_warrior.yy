@@ -101,7 +101,7 @@
             "mvc": "1.0",
             "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "propertyId": "b96ff43b-9877-4e4f-a7d6-125d24c7456b",
-            "value": "spr_warriorSide"
+            "value": "spr_warriorRight"
         }
     ],
     "parentObjectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",

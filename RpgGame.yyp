@@ -450,7 +450,7 @@
             "Key": "7b225ef3-9660-4439-9df9-9baf9912dd9f",
             "Value": {
                 "id": "99670816-18c4-4968-9cb1-c6d83ade3c68",
-                "resourcePath": "sprites\\spr_warriorSide\\spr_warriorSide.yy",
+                "resourcePath": "sprites\\spr_warriorRight\\spr_warriorRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -748,6 +748,14 @@
                 "id": "7c607d90-0c85-4faa-bd8d-ebd7fc7a0a27",
                 "resourcePath": "scripts\\script_talentBlock\\script_talentBlock.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f0af53dc-e9e6-481b-ba53-675bf5fc8f78",
+            "Value": {
+                "id": "8f3386b4-66c0-4de5-9562-8d3cae818cde",
+                "resourcePath": "sprites\\spr_warriorLeft\\spr_warriorLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

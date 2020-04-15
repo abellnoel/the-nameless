@@ -2,7 +2,7 @@
     "id": "7b225ef3-9660-4439-9df9-9baf9912dd9f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_warriorSide",
+    "name": "spr_warriorRight",
     "For3D": false,
     "HTile": false,
     "VTile": false,

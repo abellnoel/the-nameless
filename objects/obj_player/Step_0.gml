@@ -20,34 +20,27 @@ image_speed = moveSpeed * 0.1; //animation plays faster if player moves faster
 if (vinput == -1 and place_free(x, y - moveSpeed)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
-	image_xscale = 1; //resets to 1 from side flip
 	sprite_index = spriteUp;
 }
 if (vinput == 1 and place_free(x, y + moveSpeed)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
-	image_xscale = 1; //resets to 1 from side flip
 	sprite_index = spriteDown;
 }
 if (hinput == -1 and place_free(x - moveSpeed, y)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
-	sprite_index = spriteSide;
-	image_xscale = -1;
+	sprite_index = spriteRight;
 }
 if (hinput == 1 and place_free(x + moveSpeed, y)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
-	image_xscale = 1; //resets to 1 from side flip
-	sprite_index = spriteSide;
+	sprite_index = spriteLeft;
 }
 //if not moving, stay on frame with static sprite
 if (hinput == 0 and vinput == 0) {
 	image_index = 0;
 }
-
-
-
 //prevent leaving room
 //define offsets based on bounding box
 var rightOffset = sprite_xoffset - (sprite_xoffset - (bbox_right - x));

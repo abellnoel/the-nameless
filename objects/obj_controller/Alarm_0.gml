@@ -1,4 +1,4 @@
-/// @desc Room Change alarm
+/// @desc Room Change alarm (UNUSED ATM)
 
 //Need to add more details later
 show_message("Level Complete!")

@@ -167,7 +167,21 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "spr_player",
-            "varName": "spriteSide",
+            "varName": "spriteLeft",
+            "varType": 5
+        },
+        {
+            "id": "aebef107-e1f0-4245-9e55-34d4f6cb2564",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_player",
+            "varName": "spriteRight",
             "varType": 5
         }
     ],
