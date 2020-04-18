@@ -15,16 +15,6 @@
             "m_owner": "40887a3a-630a-45b9-93d3-866dd3ee8950"
         },
         {
-            "id": "818b576e-30e8-4e18-a259-a6cd465a952f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "40887a3a-630a-45b9-93d3-866dd3ee8950"
-        },
-        {
             "id": "87005d4e-2277-4dbb-bf0e-454443e24ffb",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -57,7 +47,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "83f87623-7fe9-4fae-b1ad-a47993356a50",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -83,7 +73,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "maxHealth",
+            "varName": "maxHp",
             "varType": 0
         },
         {
