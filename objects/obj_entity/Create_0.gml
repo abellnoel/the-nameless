@@ -7,3 +7,4 @@ attackSpeed = aspd;
 
 //For status effect checks
 status = STATUS_EFFECT.NONE
+statReset = true;

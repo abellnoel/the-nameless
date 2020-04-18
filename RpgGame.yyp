@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2a4449c5-984b-432c-9551-c38cdf941aba",
+            "Value": {
+                "id": "e4ed6465-fe6e-4108-b510-2115f8b20330",
+                "resourcePath": "sprites\\spr_magicFreeze\\spr_magicFreeze.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a46d2a4-730a-49b2-9dce-2783de7613c6",
             "Value": {
                 "id": "0ab19488-c0f3-4473-bbf7-ebd3160b49b7",

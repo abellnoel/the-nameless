@@ -25,6 +25,7 @@ enum STATUS_EFFECT {
 	NONE,
 	BLOCKING,
 	INVINCIBLE,
+	FROZEN,
 }
 
 //Win_condition variable

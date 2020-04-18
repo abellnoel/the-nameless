@@ -9,3 +9,4 @@ if (canAttack) {
 		canAttack = false;
 	}
 }
+
