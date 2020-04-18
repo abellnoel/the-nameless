@@ -20,22 +20,26 @@ image_speed = moveSpeed * 0.1; //animation plays faster if player moves faster
 if (vinput == -1 and place_free(x, y - moveSpeed)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
-	sprite_index = spriteUp;
+	if (object_index == obj_warrior) {
+		sprite_index = spriteUp;
+	}
 }
 if (vinput == 1 and place_free(x, y + moveSpeed)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
-	sprite_index = spriteDown;
+	if (object_index == obj_warrior) {
+		sprite_index = spriteDown;
+	}
 }
 if (hinput == -1 and place_free(x - moveSpeed, y)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
-	sprite_index = spriteRight;
+	sprite_index = spriteLeft;
 }
 if (hinput == 1 and place_free(x + moveSpeed, y)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
-	sprite_index = spriteLeft;
+	sprite_index = spriteRight;
 }
 //if not moving, stay on frame with static sprite
 if (hinput == 0 and vinput == 0) {

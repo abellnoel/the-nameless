@@ -101,6 +101,14 @@
             "mvc": "1.0",
             "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "propertyId": "b96ff43b-9877-4e4f-a7d6-125d24c7456b",
+            "value": "spr_warriorLeft"
+        },
+        {
+            "id": "98cdfebc-1af2-461d-82be-e87a8948948d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
+            "propertyId": "aebef107-e1f0-4245-9e55-34d4f6cb2564",
             "value": "spr_warriorRight"
         }
     ],

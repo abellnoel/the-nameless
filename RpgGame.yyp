@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "15fd7789-891c-4cbf-afec-df64b2b090c4",
+            "Value": {
+                "id": "33a98f3d-c5e1-491f-b166-59d696084ccf",
+                "resourcePath": "sprites\\spr_mageL\\spr_mageL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1944f62f-07b5-4c94-b545-e103a79467b4",
             "Value": {
                 "id": "e74fe518-76da-4c89-a828-66780701789f",
@@ -719,6 +727,14 @@
             }
         },
         {
+            "Key": "cf6c090b-fc82-48e7-a76d-21ad7a612137",
+            "Value": {
+                "id": "64174773-8318-48d2-b67f-06405fac3790",
+                "resourcePath": "shaders\\shader0\\shader0.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "d008e8a2-cd45-4968-8a62-fb7e30d63e90",
             "Value": {
                 "id": "31be0fc7-3a43-4db6-8fa8-44b3d871f489",
@@ -836,6 +852,14 @@
                 "id": "f5dac478-af07-4163-bf37-32d63228dc77",
                 "resourcePath": "objects\\obj_slamParticle\\obj_slamParticle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fdf7f125-4dcd-4cfa-b5ee-303d81bb2803",
+            "Value": {
+                "id": "41f4bef6-6a25-4805-9524-31acc9933067",
+                "resourcePath": "sprites\\spr_mageR\\spr_mageR.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

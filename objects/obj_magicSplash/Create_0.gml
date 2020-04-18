@@ -3,6 +3,6 @@
 event_inherited();
 
 speed = 0;
-damage = 10; //splash damage doesn't scale with player
+damage = 10; //splash damage is constant
 
 spinAccel = 1;
