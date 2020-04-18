@@ -131,6 +131,20 @@
             "value": "$FFFFDC32",
             "varName": "frozenColor",
             "varType": 7
+        },
+        {
+            "id": "cef9aaa0-80cf-4d43-b534-06add2778bc9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "frozenDuration",
+            "varType": 0
         }
     ],
     "solid": false,

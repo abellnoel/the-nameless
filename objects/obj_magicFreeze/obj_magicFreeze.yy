@@ -15,13 +15,23 @@
             "m_owner": "e2f97c39-bb83-409b-8288-7bbcd0bf4b6f"
         },
         {
-            "id": "deacc72e-4770-4f46-a0d5-a561f7158a22",
+            "id": "17e627b2-283e-4708-a110-25e41ff938a1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "e2f97c39-bb83-409b-8288-7bbcd0bf4b6f"
+        },
+        {
+            "id": "1c1f4620-d6ec-4647-9478-f3cc3dceb1ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "e2f97c39-bb83-409b-8288-7bbcd0bf4b6f"
         }
     ],
@@ -41,7 +51,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "4ba83bbc-a730-4967-b25b-88be8aa0cf3c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": ".5",
+            "varName": "scaleSpeed",
+            "varType": 0
+        },
+        {
+            "id": "67b948b4-b993-4dd0-bb88-003cff8db089",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "maxScale ",
+            "varType": 0
+        },
+        {
+            "id": "b12c9458-4be2-4321-a2df-0634803557d5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "spinSpeed",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "2a4449c5-984b-432c-9551-c38cdf941aba",
     "visible": true
