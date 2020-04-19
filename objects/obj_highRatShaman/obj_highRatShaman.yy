@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "f7e3b06a-89b3-4d68-bbea-5fb8cc12f61b"
+        },
+        {
+            "id": "e18d2927-92ca-489d-91ed-b6c49af63450",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "f7e3b06a-89b3-4d68-bbea-5fb8cc12f61b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -39,7 +49,7 @@
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "cdb27e45-79b2-4c1d-b2ee-18aecbb8b579",
-            "value": "0"
+            "value": "40"
         },
         {
             "id": "3c3588bd-4aa3-4edb-ba45-5404666eeb66",
@@ -73,7 +83,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "740a7391-dcda-44fb-b195-08f87436fed7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "seePlayer",
+            "varType": 3
+        }
     ],
     "solid": false,
     "spriteId": "30b27d73-3dff-4233-ab62-412447027531",

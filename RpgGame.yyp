@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0d0e0484-6696-4cf2-976a-0c11d38fc21a",
+            "Value": {
+                "id": "d96eaf0a-fd24-469e-a61d-950c54d2d9cf",
+                "resourcePath": "objects\\obj_magicSplash1\\obj_magicSplash1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0da1eb03-cf56-41f6-8fe8-a58e77d047b2",
             "Value": {
                 "id": "38fa71db-f73c-44cf-a660-b49565bff149",
@@ -156,6 +164,14 @@
                 "id": "e74fe518-76da-4c89-a828-66780701789f",
                 "resourcePath": "views\\1944f62f-07b5-4c94-b545-e103a79467b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1b801964-2e43-4a9c-a5a5-1437d97a7591",
+            "Value": {
+                "id": "643d113a-9eef-427a-89f4-c35c3acb5838",
+                "resourcePath": "objects\\obj_magicBolt1\\obj_magicBolt1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "5085f729-e176-49d0-b4db-4d51ae8134be",
+            "Value": {
+                "id": "944aad14-f8b6-46cf-964c-2c10fcac132a",
+                "resourcePath": "sprites\\spr_magicBolt1\\spr_magicBolt1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50db8aeb-663f-45cd-bd52-f90ec768c5f6",
             "Value": {
                 "id": "6a2ce585-e3ce-4b9a-907f-df806df83a04",
@@ -403,6 +427,14 @@
             "Value": {
                 "id": "8274cd4d-53ea-4cbd-b8a3-8abadbbb14fe",
                 "resourcePath": "sprites\\spr_highRatCrossbowmanL\\spr_highRatCrossbowmanL.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f86c892-fa1a-4f29-bf6b-9eaebd9c491e",
+            "Value": {
+                "id": "64847e55-7ff8-4527-b8b8-8a83bccb3371",
+                "resourcePath": "sprites\\spr_magicSplash1\\spr_magicSplash1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -593,7 +625,7 @@
         {
             "Key": "98f315aa-2fab-4843-a831-d3dc9157204d",
             "Value": {
-                "id": "c583ce56-d4c1-43a8-b4d9-2e982b158b38",
+                "id": "afd06109-b433-4e4e-8ac8-2e38dd22756d",
                 "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
                 "resourceType": "GMRoom"
             }

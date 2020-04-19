@@ -4,8 +4,11 @@ var shotType = argument0;
 var shot = instance_create_layer(x, y, "Instances", shotType);
 
 //direction of mouse from player
-var shotDir = point_direction(x, y, mouse_x, mouse_y); 
-
+if(object_index == obj_highRatShaman) {
+	var shotDir = point_direction(x, y, obj_player.x, obj_player.y); 
+} else {
+	var shotDir = point_direction(x, y, mouse_x, mouse_y); 
+}
 //set shot range pointers
 shot.travelPointX = x + lengthdir_x(shot.range, shotDir);
 shot.travelPointY = y + lengthdir_y(shot.range, shotDir);
