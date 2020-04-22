@@ -15,7 +15,37 @@
             "m_owner": "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1"
         },
         {
-            "id": "7c695fef-6882-4f4d-b797-7eab3e11f8d3",
+            "id": "2db06f23-67be-4469-a6f0-e14e3e236c27",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1"
+        },
+        {
+            "id": "5b621ed2-a06e-4a21-8963-55d6e61c3a95",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 2,
+            "m_owner": "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1"
+        },
+        {
+            "id": "91a6abdb-1a6e-457f-9814-51b98298b490",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1"
+        },
+        {
+            "id": "5cd6c17b-8439-4289-8140-3f997d949e7e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -98,7 +128,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "a8903552-3410-4420-afdf-3260c3a00cdd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "maxMana",
+            "varType": 0
+        },
+        {
+            "id": "6bc7a817-c5d4-40a5-a267-738f92fd0eb1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.25",
+            "varName": "rechargeRate",
+            "varType": 0
+        },
+        {
+            "id": "97c9b9b3-72fa-4cec-95b9-c179aa603ea8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "freezeManaCost",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "fdf7f125-4dcd-4cfa-b5ee-303d81bb2803",
     "visible": true

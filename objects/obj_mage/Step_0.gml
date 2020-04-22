@@ -10,3 +10,6 @@ if (canAttack) {
 	}
 }
 
+//talent freeze
+
+
