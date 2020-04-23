@@ -15,14 +15,14 @@
         {
             "Key": 32,
             "Value": {
-                "id": "97d2070f-d2d2-4077-9344-2ca12a42e482",
+                "id": "b7f2d0e7-f7ce-4adf-bb6c-72950654abe6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 32,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 10,
-                "w": 10,
+                "shift": 0,
+                "w": 0,
                 "x": 2,
                 "y": 2
             }
@@ -30,1426 +30,1426 @@
         {
             "Key": 33,
             "Value": {
-                "id": "0bb563ae-5f1a-46aa-a71d-523b65c8deac",
+                "id": "51704a5c-ac5f-42f5-b1bb-f7dea8918a89",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 33,
-                "h": 48,
-                "offset": 2,
-                "shift": 11,
-                "w": 7,
-                "x": 38,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 29,
+                "y": 14
             }
         },
         {
             "Key": 34,
             "Value": {
-                "id": "b3d7c2b2-af9f-4bff-a152-7d5cf1e39f49",
+                "id": "312a2613-4d79-43e1-a91f-ea465a6f1dfb",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 34,
-                "h": 48,
-                "offset": 2,
-                "shift": 16,
-                "w": 12,
-                "x": 24,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 26,
+                "y": 14
             }
         },
         {
             "Key": 35,
             "Value": {
-                "id": "d98bac36-d8cd-4800-b680-00df81de27c5",
+                "id": "85a2ac27-7658-454a-888c-2f19675d6046",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 35,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 20,
-                "x": 2,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 23,
+                "y": 14
             }
         },
         {
             "Key": 36,
             "Value": {
-                "id": "c7f1c9fc-e1ca-4184-b371-c85bb6fc8ef0",
+                "id": "1700dce9-81c3-4ec8-aa31-3429c107d19d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 36,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 18,
-                "x": 477,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 20,
+                "y": 14
             }
         },
         {
             "Key": 37,
             "Value": {
-                "id": "2eddb979-a5af-45d5-b28d-4c9e18f85709",
+                "id": "906a7111-bcca-4917-8e19-3db6d317489b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 37,
-                "h": 48,
-                "offset": 1,
-                "shift": 36,
-                "w": 34,
-                "x": 441,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 17,
+                "y": 14
             }
         },
         {
             "Key": 38,
             "Value": {
-                "id": "6af89d80-b608-4c7a-9fca-8328c44a7fba",
+                "id": "69c81501-c9c4-476e-970e-cc16655183f8",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 38,
-                "h": 48,
-                "offset": 2,
-                "shift": 33,
-                "w": 32,
-                "x": 407,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 14,
+                "y": 14
             }
         },
         {
             "Key": 39,
             "Value": {
-                "id": "7d6e1ccf-3a61-4d64-a7a9-00be892fa06a",
+                "id": "53f32c32-2789-491a-b741-991ca7dc75dc",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 39,
-                "h": 48,
-                "offset": 2,
-                "shift": 9,
-                "w": 5,
-                "x": 400,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 11,
+                "y": 14
             }
         },
         {
             "Key": 40,
             "Value": {
-                "id": "96810ad4-24e4-4c37-9df4-fe000c346c0a",
+                "id": "24a79aeb-cf8a-453a-9f41-90084ad95edb",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 40,
-                "h": 48,
-                "offset": 2,
-                "shift": 13,
-                "w": 11,
-                "x": 387,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 8,
+                "y": 14
             }
         },
         {
             "Key": 41,
             "Value": {
-                "id": "bde64322-4a26-416e-ba6b-c58f897d5d45",
+                "id": "08498c66-d8bf-402f-b0a3-22873160ddb1",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 41,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 13,
-                "w": 11,
-                "x": 374,
-                "y": 102
+                "shift": 0,
+                "w": 1,
+                "x": 5,
+                "y": 14
             }
         },
         {
             "Key": 42,
             "Value": {
-                "id": "13ccbade-da7a-4dcc-8e29-11b25349fd8a",
+                "id": "7673a3b9-4fe0-42e6-b9e9-03b7abb0ce28",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 42,
-                "h": 48,
-                "offset": 1,
-                "shift": 18,
-                "w": 16,
-                "x": 47,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 32,
+                "y": 14
             }
         },
         {
             "Key": 43,
             "Value": {
-                "id": "27c75353-5ba7-4f97-9ee4-5b2dd051ce6f",
+                "id": "d9a312ab-cf36-43fb-a244-2a1aa344cc59",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 43,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 351,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 2,
+                "y": 14
             }
         },
         {
             "Key": 44,
             "Value": {
-                "id": "060fb91d-3c2a-479a-8526-ab1aa8f5a5cf",
+                "id": "c8a57f1e-e301-487d-a937-decd26b4af45",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 44,
-                "h": 48,
+                "h": 2,
                 "offset": -1,
-                "shift": 10,
-                "w": 10,
-                "x": 318,
-                "y": 102
+                "shift": 0,
+                "w": 2,
+                "x": 54,
+                "y": 10
             }
         },
         {
             "Key": 45,
             "Value": {
-                "id": "829c6d00-cc57-42fc-bd5b-1513e5160099",
+                "id": "318346d5-fcbd-448e-a90d-dc4313842489",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 45,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 13,
-                "w": 14,
-                "x": 302,
-                "y": 102
+                "shift": 0,
+                "w": 1,
+                "x": 51,
+                "y": 10
             }
         },
         {
             "Key": 46,
             "Value": {
-                "id": "d5fc91ad-52a9-42c9-a468-e35924132f73",
+                "id": "b31faf3e-0e28-4a87-92e6-268b86acc0f7",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 46,
-                "h": 48,
-                "offset": 1,
-                "shift": 10,
-                "w": 8,
-                "x": 292,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 48,
+                "y": 10
             }
         },
         {
             "Key": 47,
             "Value": {
-                "id": "d46e5e1a-28af-404d-b864-2177e9d93726",
+                "id": "883e83d0-2048-4f69-a964-c539e03bb3a6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 47,
-                "h": 48,
-                "offset": -6,
-                "shift": 12,
-                "w": 21,
-                "x": 269,
-                "y": 102
+                "h": 2,
+                "offset": -1,
+                "shift": 0,
+                "w": 2,
+                "x": 44,
+                "y": 10
             }
         },
         {
             "Key": 48,
             "Value": {
-                "id": "6cc775a3-b958-4ff5-adc3-250f3f2d8d9d",
+                "id": "0dde3690-94bb-441f-a7f8-42d914b03d7b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 48,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 18,
-                "x": 249,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 41,
+                "y": 10
             }
         },
         {
             "Key": 49,
             "Value": {
-                "id": "2113bf84-e824-4c72-978b-13cf1573b2e1",
+                "id": "80b42cd2-42cd-4150-bf3e-62d82f280221",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 49,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 18,
-                "x": 229,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 38,
+                "y": 10
             }
         },
         {
             "Key": 50,
             "Value": {
-                "id": "a4e74271-6836-4d95-ac09-2ace1c853f83",
+                "id": "4a1a933f-2a29-45a9-a0ec-a8bcfc40bd37",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 50,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 20,
-                "x": 207,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 35,
+                "y": 10
             }
         },
         {
             "Key": 51,
             "Value": {
-                "id": "786db4b1-33f7-4639-9f33-e0c9dec7cc3a",
+                "id": "a9146b48-3b77-4e1f-92dd-419fa0de37e8",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 51,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 19,
-                "x": 186,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 32,
+                "y": 10
             }
         },
         {
             "Key": 52,
             "Value": {
-                "id": "b8c80856-34ee-4199-b0e1-8a29557d1423",
+                "id": "9256dacf-5a90-405b-af6d-6477e0a6dbe9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 52,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 19,
-                "x": 165,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 29,
+                "y": 10
             }
         },
         {
             "Key": 53,
             "Value": {
-                "id": "4f5a8bfb-0a7f-4542-af2d-54c080fdd3f1",
+                "id": "159ae4da-bccf-4e95-a863-11d751634e6f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 53,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 19,
-                "x": 330,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 58,
+                "y": 10
             }
         },
         {
             "Key": 54,
             "Value": {
-                "id": "cf43dcc0-8775-482d-bdb3-63005b0c347b",
+                "id": "0f7e100c-56ed-42ef-a202-5152c9e9a4a9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 54,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 18,
-                "x": 65,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 35,
+                "y": 14
             }
         },
         {
             "Key": 55,
             "Value": {
-                "id": "7a6cbf9f-a89a-4bc4-a4d4-5b7741865eb5",
+                "id": "0a199888-074c-4387-9e87-7d67928e9805",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 55,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 20,
-                "x": 85,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 38,
+                "y": 14
             }
         },
         {
             "Key": 56,
             "Value": {
-                "id": "2cb3bb75-7187-413f-9dd2-c17d2db04ffd",
+                "id": "41688d68-b5f4-4fd7-a225-8ba5f7fb1277",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 56,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 19,
-                "x": 107,
-                "y": 152
+                "shift": 1,
+                "w": 1,
+                "x": 41,
+                "y": 14
             }
         },
         {
             "Key": 57,
             "Value": {
-                "id": "c54cde9e-a5d5-4462-9ad8-a1a399340801",
+                "id": "7fcd970d-bed1-4839-b479-766ada73ddef",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 57,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 18,
-                "x": 142,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 45,
+                "y": 18
             }
         },
         {
             "Key": 58,
             "Value": {
-                "id": "3f1ef699-e5ab-4ad8-980e-68a293503f26",
+                "id": "2f05b9e2-9fe9-45a2-bf53-5161b6e2efad",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 58,
-                "h": 48,
-                "offset": 1,
-                "shift": 10,
-                "w": 8,
-                "x": 132,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 42,
+                "y": 18
             }
         },
         {
             "Key": 59,
             "Value": {
-                "id": "4db5785b-b3f2-4c3d-af40-3d5d148465e0",
+                "id": "71a0c4db-282a-4a23-ab55-88b82a76c534",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 59,
-                "h": 48,
+                "h": 2,
                 "offset": -1,
-                "shift": 10,
-                "w": 11,
-                "x": 119,
-                "y": 202
+                "shift": 0,
+                "w": 2,
+                "x": 38,
+                "y": 18
             }
         },
         {
             "Key": 60,
             "Value": {
-                "id": "105c80bf-8212-4f4f-8c30-bd50ee9d4f52",
+                "id": "c6832217-ce35-4856-8c1a-d18f5162e943",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 60,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 96,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 35,
+                "y": 18
             }
         },
         {
             "Key": 61,
             "Value": {
-                "id": "2985942b-ed7a-414b-ae6f-ff5c617f06b8",
+                "id": "451bf61a-dc91-4b63-8697-151d07ba8215",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 61,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 73,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 32,
+                "y": 18
             }
         },
         {
             "Key": 62,
             "Value": {
-                "id": "d75ba8e0-e157-4c28-92ee-a2e9baa4c63d",
+                "id": "f57f1dac-5260-4e37-9372-86fdc3e291f2",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 62,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 50,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 29,
+                "y": 18
             }
         },
         {
             "Key": 63,
             "Value": {
-                "id": "fba8ebfd-2063-425c-ac68-9137e480ce90",
+                "id": "701515ac-641f-4859-9023-2f6fc955faf7",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 63,
-                "h": 48,
-                "offset": 1,
-                "shift": 18,
-                "w": 16,
-                "x": 32,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 26,
+                "y": 18
             }
         },
         {
             "Key": 64,
             "Value": {
-                "id": "7414b85b-389d-4f80-bea2-ac75c932a071",
+                "id": "f05eef9d-3a19-449f-91f3-10be9ceec719",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 64,
-                "h": 48,
-                "offset": 1,
-                "shift": 30,
-                "w": 28,
-                "x": 2,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 23,
+                "y": 18
             }
         },
         {
             "Key": 65,
             "Value": {
-                "id": "ad8e581b-857e-41ab-bcc9-7226403c8aa4",
+                "id": "47b55f40-da56-4fe5-bfb9-9608329cba17",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 65,
-                "h": 48,
-                "offset": 1,
-                "shift": 31,
-                "w": 30,
-                "x": 462,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 20,
+                "y": 18
             }
         },
         {
             "Key": 66,
             "Value": {
-                "id": "c329d824-c39e-4dff-a4f4-bd0dc4e411b2",
+                "id": "5c0c1af9-e627-44f8-98f2-9ae8f1f1ec51",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 66,
-                "h": 48,
-                "offset": 1,
-                "shift": 27,
-                "w": 24,
-                "x": 436,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 17,
+                "y": 18
             }
         },
         {
             "Key": 67,
             "Value": {
-                "id": "34157929-57f9-4289-949e-ee0ab61c8148",
+                "id": "6c8c7b85-47cc-47dd-9422-f8aee81b48cc",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 67,
-                "h": 48,
-                "offset": 1,
-                "shift": 29,
-                "w": 27,
-                "x": 407,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 14,
+                "y": 18
             }
         },
         {
             "Key": 68,
             "Value": {
-                "id": "a0a8fcf1-1769-4e48-9a9e-94ae3f82edd2",
+                "id": "418d3ce2-517c-4115-8f25-785e7d61aa9d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 68,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 31,
-                "x": 374,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 11,
+                "y": 18
             }
         },
         {
             "Key": 69,
             "Value": {
-                "id": "21abfa83-4848-44dd-bb87-05f956b0c7c4",
+                "id": "42523192-8e6e-4e9b-9acb-57b083b37fa8",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 69,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 23,
-                "x": 349,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 8,
+                "y": 18
             }
         },
         {
             "Key": 70,
             "Value": {
-                "id": "3dedf8e0-2f45-4e46-87c6-9997ccc9ac7d",
+                "id": "455d70e3-98d0-4686-bdbf-4da53b6c985d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 70,
-                "h": 48,
-                "offset": 1,
-                "shift": 22,
-                "w": 21,
-                "x": 326,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 5,
+                "y": 18
             }
         },
         {
             "Key": 71,
             "Value": {
-                "id": "d7500800-19c8-4505-baa2-59d03f4ac255",
+                "id": "be9b8511-822b-4dfc-8f30-d6edc77e5017",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 71,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 31,
-                "x": 293,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 2,
+                "y": 18
             }
         },
         {
             "Key": 72,
             "Value": {
-                "id": "8111e4c6-1d06-47b8-ad91-20b25fa436a9",
+                "id": "5e0fe411-acd9-4577-a8ae-72668e105c8e",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 72,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 32,
-                "x": 259,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 59,
+                "y": 14
             }
         },
         {
             "Key": 73,
             "Value": {
-                "id": "b3c8dede-0271-493d-af53-aa356798a9a3",
+                "id": "e2f19e09-e86c-4967-90c6-1c4cbdc03ffd",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 73,
-                "h": 48,
-                "offset": 1,
-                "shift": 16,
-                "w": 14,
-                "x": 243,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 56,
+                "y": 14
             }
         },
         {
             "Key": 74,
             "Value": {
-                "id": "2b5050d6-9f0c-423f-b80e-2e46779d47fd",
+                "id": "d1584a10-54fb-4fe4-919e-117d3d3107f1",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 74,
-                "h": 48,
-                "offset": -1,
-                "shift": 16,
-                "w": 16,
-                "x": 225,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 53,
+                "y": 14
             }
         },
         {
             "Key": 75,
             "Value": {
-                "id": "aacbec18-db70-49cd-a6a9-f5e5688c8008",
+                "id": "c22a7051-9d55-4d9a-8713-032e2e20d74a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 75,
-                "h": 48,
-                "offset": 1,
-                "shift": 31,
-                "w": 30,
-                "x": 193,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 50,
+                "y": 14
             }
         },
         {
             "Key": 76,
             "Value": {
-                "id": "abeba5db-6f0b-47c4-8c31-7958a4b73130",
+                "id": "f37d54c5-24e3-451b-9a86-10c03b0279f9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 76,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 23,
-                "x": 168,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 47,
+                "y": 14
             }
         },
         {
             "Key": 77,
             "Value": {
-                "id": "5b2979f4-a50f-419b-9b38-70a697e2665c",
+                "id": "83ba3bca-e12e-4691-8000-f3550aac1305",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 77,
-                "h": 48,
-                "offset": 1,
-                "shift": 40,
-                "w": 38,
-                "x": 128,
-                "y": 152
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 44,
+                "y": 14
             }
         },
         {
             "Key": 78,
             "Value": {
-                "id": "1b4f5483-4741-4a30-9a16-4f94ddb64717",
+                "id": "b52349f5-57bf-4281-b468-87f917591a8b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 78,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 32,
-                "x": 131,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 26,
+                "y": 10
             }
         },
         {
             "Key": 79,
             "Value": {
-                "id": "76ba0f32-a5a3-4c2c-8fa0-d89744caf947",
+                "id": "82b281ad-f390-406c-b610-af691bc41ced",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 79,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 31,
-                "x": 98,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 23,
+                "y": 10
             }
         },
         {
             "Key": 80,
             "Value": {
-                "id": "c2ea1bd1-d1cf-4a5f-9860-9f7ad38d42ee",
+                "id": "0c5cdc35-de30-4c45-903f-3f5f5e17e96f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 80,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 23,
-                "x": 73,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 20,
+                "y": 10
             }
         },
         {
             "Key": 81,
             "Value": {
-                "id": "dbe8cc54-3a19-4ff1-9941-dabeea3a040f",
+                "id": "6db61bc3-d1a2-4000-b3fe-b179b4e4a0e7",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 81,
-                "h": 48,
-                "offset": 1,
-                "shift": 33,
-                "w": 33,
-                "x": 45,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 8,
+                "y": 6
             }
         },
         {
             "Key": 82,
             "Value": {
-                "id": "6a44ea45-1f63-41f6-b21b-06a99e9408d8",
+                "id": "95ea4fd6-ceab-4f6e-91e1-5ed4f95896b1",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 82,
-                "h": 48,
-                "offset": 1,
-                "shift": 29,
-                "w": 28,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
                 "x": 2,
-                "y": 52
+                "y": 6
             }
         },
         {
             "Key": 83,
             "Value": {
-                "id": "06d9a294-88f5-4291-9b06-ee97e6b4dfa8",
+                "id": "856f5c9b-9aee-495f-8a62-0caf00399f3f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 83,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 459,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 60,
                 "y": 2
             }
         },
         {
             "Key": 84,
             "Value": {
-                "id": "065c567d-fb72-486c-9f86-36065a3685cf",
+                "id": "dff97fa7-d50c-46cf-8241-81995c8c6b89",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 84,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 27,
-                "w": 27,
-                "x": 430,
+                "shift": 1,
+                "w": 1,
+                "x": 57,
                 "y": 2
             }
         },
         {
             "Key": 85,
             "Value": {
-                "id": "b15c6b39-27c7-4d91-8816-8e6e5ab91d03",
+                "id": "08379c27-ebfc-495d-97f6-de78d99d59e3",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 85,
-                "h": 48,
-                "offset": 1,
-                "shift": 31,
-                "w": 30,
-                "x": 398,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 54,
                 "y": 2
             }
         },
         {
             "Key": 86,
             "Value": {
-                "id": "5c35a7a2-89e3-448f-9fc2-4a30fa80ce05",
+                "id": "80aae49b-8d9f-406c-9b3f-6900cd37318e",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 86,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 31,
-                "w": 30,
-                "x": 366,
+                "shift": 1,
+                "w": 1,
+                "x": 51,
                 "y": 2
             }
         },
         {
             "Key": 87,
             "Value": {
-                "id": "6a34f02d-f713-4cb4-8919-addbdf8b0cf8",
+                "id": "483ac0c5-6556-42bc-a50c-5e4e229494f2",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 87,
-                "h": 48,
+                "h": 2,
                 "offset": -1,
-                "shift": 40,
-                "w": 42,
-                "x": 322,
+                "shift": 1,
+                "w": 3,
+                "x": 46,
                 "y": 2
             }
         },
         {
             "Key": 88,
             "Value": {
-                "id": "22debc70-b04e-4a90-ae21-3624882628f5",
+                "id": "25d63b5c-94aa-415f-9b41-59902ec2b154",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 88,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 27,
-                "w": 27,
-                "x": 293,
+                "shift": 1,
+                "w": 1,
+                "x": 43,
                 "y": 2
             }
         },
         {
             "Key": 89,
             "Value": {
-                "id": "82e8d5a7-e712-44c4-bf71-a93cf11c15e6",
+                "id": "be75da4e-e078-4185-8b87-f5515f96cbfa",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 89,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 27,
-                "w": 26,
-                "x": 265,
+                "shift": 1,
+                "w": 1,
+                "x": 40,
                 "y": 2
             }
         },
         {
             "Key": 90,
             "Value": {
-                "id": "25a4fc93-78e7-4abb-a698-d4680581aaad",
+                "id": "b3ea8a85-47db-4eb4-a81b-32e10eb0a943",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 90,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 27,
-                "w": 26,
-                "x": 237,
+                "shift": 1,
+                "w": 1,
+                "x": 37,
                 "y": 2
             }
         },
         {
             "Key": 91,
             "Value": {
-                "id": "c39d68e8-65d1-4f2f-a47e-4b0578836edd",
+                "id": "41298b27-70b3-4795-9089-768cba38c9f0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 91,
-                "h": 48,
-                "offset": 2,
-                "shift": 13,
-                "w": 11,
-                "x": 32,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 5,
+                "y": 6
             }
         },
         {
             "Key": 92,
             "Value": {
-                "id": "53712119-8a60-4c3b-8829-0b184be71ffd",
+                "id": "72b1ecc6-0867-49c7-aaa4-9b4392aa01cb",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 92,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 22,
-                "x": 213,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 34,
                 "y": 2
             }
         },
         {
             "Key": 93,
             "Value": {
-                "id": "688e7413-1e87-43ea-b336-311827969694",
+                "id": "79b035e5-9d66-4bfe-8570-31e310175101",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 93,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 13,
-                "w": 11,
-                "x": 182,
+                "shift": 0,
+                "w": 1,
+                "x": 28,
                 "y": 2
             }
         },
         {
             "Key": 94,
             "Value": {
-                "id": "4ffb69da-16c3-4dd1-8348-cd82c30391a7",
+                "id": "786ea652-c177-4188-a19c-6785df706199",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 94,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 21,
-                "x": 159,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 25,
                 "y": 2
             }
         },
         {
             "Key": 95,
             "Value": {
-                "id": "36bd34df-04c1-4fc5-83cd-536c4e7f91e4",
+                "id": "cb43438a-4bca-4e7b-bbae-cfb5150ccecd",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 95,
-                "h": 48,
-                "offset": -1,
-                "shift": 20,
-                "w": 22,
-                "x": 135,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 22,
                 "y": 2
             }
         },
         {
             "Key": 96,
             "Value": {
-                "id": "b5d88070-cd98-4aa1-9a32-70b51c273725",
+                "id": "6c4f8e48-3b8c-4597-a110-df120e22a956",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 96,
-                "h": 48,
-                "offset": 1,
-                "shift": 13,
-                "w": 11,
-                "x": 122,
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 19,
                 "y": 2
             }
         },
         {
             "Key": 97,
             "Value": {
-                "id": "58903916-88f1-42a7-acd6-703e2678dec1",
+                "id": "03686bc0-41e8-4809-8435-8f4767d5de6a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 97,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 19,
-                "x": 101,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 16,
                 "y": 2
             }
         },
         {
             "Key": 98,
             "Value": {
-                "id": "2f9e94c9-0d9d-439f-acc7-b7f33134a870",
+                "id": "81095dd9-b19c-409d-b655-af7a3db6c304",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 98,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 24,
-                "w": 23,
-                "x": 76,
+                "shift": 1,
+                "w": 1,
+                "x": 13,
                 "y": 2
             }
         },
         {
             "Key": 99,
             "Value": {
-                "id": "beb2a69f-3626-4ece-a5b8-0a1b7ea79b00",
+                "id": "c9e4476a-804d-46c2-94df-cc3f0f430e98",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 99,
-                "h": 48,
-                "offset": 1,
-                "shift": 18,
-                "w": 16,
-                "x": 58,
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 10,
                 "y": 2
             }
         },
         {
             "Key": 100,
             "Value": {
-                "id": "77b324f4-2677-4efe-969f-8ff1bd1a340b",
+                "id": "a8f5eb4a-a932-4d64-9ec0-f8502058b5dd",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 100,
-                "h": 48,
-                "offset": 2,
-                "shift": 24,
-                "w": 22,
-                "x": 34,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 7,
                 "y": 2
             }
         },
         {
             "Key": 101,
             "Value": {
-                "id": "95243703-f58e-4abc-a1f4-9f7f4f4f081e",
+                "id": "08064ed2-dcf9-4db5-b6cf-4dbd61cc6e0a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 101,
-                "h": 48,
-                "offset": 1,
-                "shift": 20,
-                "w": 18,
-                "x": 14,
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 4,
                 "y": 2
             }
         },
         {
             "Key": 102,
             "Value": {
-                "id": "8a81d3b6-4366-4bf1-afc7-fbb0cc4cfa93",
+                "id": "b6acb0ad-e210-4515-b34a-c693a3d16d56",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 102,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 16,
-                "w": 16,
-                "x": 195,
+                "shift": 0,
+                "w": 1,
+                "x": 31,
                 "y": 2
             }
         },
         {
             "Key": 103,
             "Value": {
-                "id": "1f3817cf-61b2-43f8-8221-bfe2e819c43d",
+                "id": "235ebde5-d672-4d17-b76d-24764b2774d0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 103,
-                "h": 48,
-                "offset": 1,
-                "shift": 22,
-                "w": 22,
-                "x": 80,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 11,
+                "y": 6
             }
         },
         {
             "Key": 104,
             "Value": {
-                "id": "27d2f3d5-bf5c-49e3-b31b-259aeed3ccf2",
+                "id": "b6c1cb3a-f9a2-45ca-8e35-75b0dc91c4e3",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 104,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 24,
-                "w": 24,
-                "x": 305,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 44,
+                "y": 6
             }
         },
         {
             "Key": 105,
             "Value": {
-                "id": "8ce62927-2544-4226-a410-527a19a4902e",
+                "id": "13f41445-823c-472f-ace5-5484ca831037",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 105,
-                "h": 48,
-                "offset": 1,
-                "shift": 13,
-                "w": 12,
-                "x": 104,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 14,
+                "y": 6
             }
         },
         {
             "Key": 106,
             "Value": {
-                "id": "d3ee921e-1737-4f64-a1f0-6a3a97561a6c",
+                "id": "930d283c-e4ec-4249-86ea-cce8b045b846",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 106,
-                "h": 48,
-                "offset": -1,
-                "shift": 13,
-                "w": 11,
-                "x": 42,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 14,
+                "y": 10
             }
         },
         {
             "Key": 107,
             "Value": {
-                "id": "45c22133-0b02-4393-921c-0ba8b268a93b",
+                "id": "90d9bc05-4428-4d26-afac-435a5bc4b501",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 107,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 24,
-                "w": 24,
-                "x": 16,
-                "y": 102
+                "shift": 1,
+                "w": 1,
+                "x": 11,
+                "y": 10
             }
         },
         {
             "Key": 108,
             "Value": {
-                "id": "1627b8e7-6cf4-423f-a9e2-17c038c8726b",
+                "id": "8a5cb23a-d67f-418c-aeaf-83e308644424",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 108,
-                "h": 48,
-                "offset": 1,
-                "shift": 13,
-                "w": 12,
-                "x": 2,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 8,
+                "y": 10
             }
         },
         {
             "Key": 109,
             "Value": {
-                "id": "8f7ec442-a01b-4d4a-83b5-fd9767d29e43",
+                "id": "5226969d-c93b-4d22-a025-df2f5f42ef93",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 109,
-                "h": 48,
-                "offset": 1,
-                "shift": 36,
-                "w": 35,
-                "x": 461,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 5,
+                "y": 10
             }
         },
         {
             "Key": 110,
             "Value": {
-                "id": "5928fe6a-2410-4d9f-9468-7e5b925f93c7",
+                "id": "7cbcde84-d0bb-453f-91e3-820e530500d6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 110,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 23,
-                "x": 436,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 2,
+                "y": 10
             }
         },
         {
             "Key": 111,
             "Value": {
-                "id": "6f99363e-26f4-490f-8e09-d3e533bc8026",
+                "id": "66800aa8-6c31-4e55-b130-fb346a57f4ad",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 111,
-                "h": 48,
-                "offset": 1,
-                "shift": 22,
-                "w": 20,
-                "x": 414,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 59,
+                "y": 6
             }
         },
         {
             "Key": 112,
             "Value": {
-                "id": "db06eec7-6015-4e4a-91f0-81c611124f74",
+                "id": "9a905516-42fa-43f8-bbf5-ead5a646664f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 112,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 22,
-                "x": 390,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 56,
+                "y": 6
             }
         },
         {
             "Key": 113,
             "Value": {
-                "id": "2c26c939-1845-44e8-87b3-1788a95c6efb",
+                "id": "7963a2e8-8352-4c61-82f4-ff0d37d90434",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 113,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 23,
-                "x": 365,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 53,
+                "y": 6
             }
         },
         {
             "Key": 114,
             "Value": {
-                "id": "e21b9aa6-7805-4615-9fb7-0545298ee7ed",
+                "id": "5d0db907-e674-4ead-8a6b-adb36b17dd74",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 114,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 16,
-                "w": 16,
-                "x": 347,
-                "y": 52
+                "shift": 0,
+                "w": 1,
+                "x": 50,
+                "y": 6
             }
         },
         {
             "Key": 115,
             "Value": {
-                "id": "4b6828c8-bdd5-4284-af29-ecf06df88ce2",
+                "id": "e5a8971d-a527-4cd6-837f-bfa7522051e6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 115,
-                "h": 48,
-                "offset": 1,
-                "shift": 18,
-                "w": 16,
-                "x": 55,
-                "y": 102
+                "h": 2,
+                "offset": 0,
+                "shift": 0,
+                "w": 1,
+                "x": 17,
+                "y": 10
             }
         },
         {
             "Key": 116,
             "Value": {
-                "id": "8dfa7827-7be1-4c07-abea-a8017a689017",
+                "id": "69e8b3d1-2536-499a-a7d4-c68502c37e97",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 116,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 13,
-                "w": 14,
-                "x": 331,
-                "y": 52
+                "shift": 0,
+                "w": 1,
+                "x": 47,
+                "y": 6
             }
         },
         {
             "Key": 117,
             "Value": {
-                "id": "41cb1b9e-8506-457f-b5cc-103279791e38",
+                "id": "15fcfc61-8b54-4488-bcf6-54f5109d6b9f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 117,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 24,
-                "w": 24,
-                "x": 279,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 41,
+                "y": 6
             }
         },
         {
             "Key": 118,
             "Value": {
-                "id": "74ae6bfe-af17-4e5c-80f2-2bd7c5b20e88",
+                "id": "88ce4214-3662-474a-b981-e89e317f85b4",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 118,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 22,
-                "w": 22,
-                "x": 255,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 38,
+                "y": 6
             }
         },
         {
             "Key": 119,
             "Value": {
-                "id": "6a79462b-2b09-4ff4-b61f-77af32b23766",
+                "id": "20c1fcc4-edd6-490b-ace4-f007aa899b2b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 119,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 33,
-                "w": 33,
-                "x": 220,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 35,
+                "y": 6
             }
         },
         {
             "Key": 120,
             "Value": {
-                "id": "f4a10239-3ed9-4fb2-9bf6-4d654a51a57e",
+                "id": "98c4892c-5312-4ea5-9b95-318392cc989b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 120,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 20,
-                "x": 198,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 32,
+                "y": 6
             }
         },
         {
             "Key": 121,
             "Value": {
-                "id": "a6622e49-11a9-4554-ab77-9fcaa9edfd74",
+                "id": "6e11c11a-119c-4727-a2b2-d9e3ea678c9d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 121,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 22,
-                "w": 22,
-                "x": 174,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 29,
+                "y": 6
             }
         },
         {
             "Key": 122,
             "Value": {
-                "id": "503d3588-ab93-4982-b977-eb5da2579fc5",
+                "id": "81c5b66d-7226-446c-aacd-4b25667e0a48",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 122,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 20,
-                "w": 19,
-                "x": 153,
-                "y": 52
+                "shift": 1,
+                "w": 1,
+                "x": 26,
+                "y": 6
             }
         },
         {
             "Key": 123,
             "Value": {
-                "id": "1cbb246e-e3a4-47c1-8d5d-c0242763398c",
+                "id": "97f32ccc-7957-40a6-afcf-ecca5d6929ae",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 123,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 12,
-                "w": 12,
-                "x": 139,
-                "y": 52
+                "shift": 0,
+                "w": 1,
+                "x": 23,
+                "y": 6
             }
         },
         {
             "Key": 124,
             "Value": {
-                "id": "f8f3d26b-3f05-4d9b-964c-892d504021e1",
+                "id": "bdbb1107-1534-4f94-9fe2-d7cba611bf14",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 124,
-                "h": 48,
-                "offset": 10,
-                "shift": 24,
-                "w": 5,
-                "x": 132,
-                "y": 52
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 20,
+                "y": 6
             }
         },
         {
             "Key": 125,
             "Value": {
-                "id": "c654f3ae-2481-4190-a0cc-bb1d9e0a7826",
+                "id": "8ea38c67-e7e4-4af3-86eb-5ece2b19db94",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 125,
-                "h": 48,
+                "h": 2,
                 "offset": 0,
-                "shift": 12,
-                "w": 12,
-                "x": 118,
-                "y": 52
+                "shift": 0,
+                "w": 1,
+                "x": 17,
+                "y": 6
             }
         },
         {
             "Key": 126,
             "Value": {
-                "id": "4b0dbea8-8f12-496b-94e2-62ba31ef97fd",
+                "id": "9073e2bd-1000-4ec6-89bd-a3a052e86a13",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 126,
-                "h": 48,
-                "offset": 1,
-                "shift": 24,
-                "w": 22,
-                "x": 162,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 48,
+                "y": 18
             }
         },
         {
             "Key": 9647,
             "Value": {
-                "id": "11953e44-d533-492e-88e3-8ff96e8f7a9e",
+                "id": "9863c749-5cac-4fe6-999e-d0145ea46f1e",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 9647,
-                "h": 48,
-                "offset": 8,
-                "shift": 39,
-                "w": 23,
-                "x": 186,
-                "y": 202
+                "h": 2,
+                "offset": 0,
+                "shift": 1,
+                "w": 1,
+                "x": 51,
+                "y": 18
             }
         }
     ],
@@ -1474,7 +1474,7 @@
         }
     ],
     "sampleText": "abcdef ABCDEF\\u000a0123456789 .,<>\"'&!?\\u000athe quick brown fox jumps over the lazy dog\\u000aTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\\u000aDefault character: ▯ (9647)",
-    "size": 30,
+    "size": 1,
     "styleName": "Bold",
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f"
 }

@@ -562,7 +562,7 @@
             "Key": "7cb2ad8b-4fe1-41a9-baff-2a05b72016c1",
             "Value": {
                 "id": "651fa155-f366-470c-941d-17eb743373c7",
-                "resourcePath": "rooms\\rm_levelEXPERIMENTAL\\rm_levelEXPERIMENTAL.yy",
+                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -666,7 +666,7 @@
             "Key": "98f315aa-2fab-4843-a831-d3dc9157204d",
             "Value": {
                 "id": "afd06109-b433-4e4e-8ac8-2e38dd22756d",
-                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
+                "resourcePath": "rooms\\rm_firstPlayable\\rm_firstPlayable.yy",
                 "resourceType": "GMRoom"
             }
         },

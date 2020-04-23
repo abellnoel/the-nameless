@@ -225,20 +225,6 @@
             "value": "room_height - 100",
             "varName": "playerSpawnY",
             "varType": 0
-        },
-        {
-            "id": "b95a3e3c-0e2f-4f40-ad0b-f48eacf5f942",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "global.classSelected",
-            "varName": "playerClass",
-            "varType": 5
         }
     ],
     "solid": false,
