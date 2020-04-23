@@ -62,4 +62,31 @@ draw_text_color(left, y4, "Exit",
 							button4Color,
 							button4Color,
 							1); //alpha (opacity)
-												  
+							
+//class selection messages
+draw_set_halign(fa_center);
+draw_set_font(fnt_classSelect);
+if (classSelection) {
+	draw_text_color(420, 360, "Press Space to Change Classes",
+								button2Color,
+								button2Color,
+								button2Color,
+								button2Color,
+								1); //alpha (opacity)
+	switch (classIndex) {
+		case 0: 
+			draw_text_color(420, 340, "Warrior",
+										button2Color,
+										button2Color,
+										button2Color,
+										button2Color,
+										1); break; //alpha (opacity)
+		case 1: 
+			draw_text_color(420, 340, "Mage",
+										button2Color,
+										button2Color,
+										button2Color,
+										button2Color,
+										1); break; //alpha (opacity)
+	}
+}

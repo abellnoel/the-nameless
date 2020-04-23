@@ -1,0 +1,27 @@
+/// @description Menu selection
+switch (selection) {
+	//PLAY
+	case 1: 
+		//PLAY
+		room_goto_next();
+		break;
+	//SELECT CLASS
+	case 2:
+		if (!classSelection) {
+			classSelection = true
+			instance_create_layer(420, 450, "Instances", classes[classIndex]);
+		}
+		else {
+			classSelection = false;
+			instance_destroy(obj_player);
+		}
+		break;
+	//CREDITS
+	case 3:
+		//credits screen
+		break;
+	//EXIT
+	case 4:
+		game_end();
+		break;
+}

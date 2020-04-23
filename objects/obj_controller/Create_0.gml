@@ -18,7 +18,9 @@ enemyList = [obj_lowlyRat, obj_highRat, obj_highRatWarrior, obj_highRatArcher,
 				obj_highRatCrossbowman, obj_highRatShaman, obj_kingRat];
 
 //PLAYER SPAWN
-instance_create_layer(playerSpawnX, playerSpawnY, "Instances", playerClass);
+if (room != rm_menu) {
+	instance_create_layer(playerSpawnX, playerSpawnY, "Instances", playerClass);
+}
 
 //LIST ALL TYPES OF STATUS EFFECTS
 enum STATUS_EFFECT {
