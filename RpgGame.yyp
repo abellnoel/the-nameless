@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "047cdb2e-4e00-4b0f-a4e5-a832a3302492",
+            "Value": {
+                "id": "8b146358-8aad-4a46-9f6b-a2cd175a6715",
+                "resourcePath": "fonts\\fnt_menu\\fnt_menu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "062ac77c-a81c-452e-be42-c134ae99ef87",
             "Value": {
                 "id": "ef198a38-7845-4107-b047-10e67c09900f",
@@ -623,6 +631,14 @@
             }
         },
         {
+            "Key": "8c5c3056-03ba-475a-a246-cdfec9ddf9e6",
+            "Value": {
+                "id": "60fb63ed-b73e-41b4-afea-36a516568895",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8cd48c53-6523-4ad6-be76-dbb4e648e418",
             "Value": {
                 "id": "0a99eca2-4204-4e38-93b9-1bac656e7f3d",
@@ -924,6 +940,14 @@
                 "id": "a0077629-0b42-4c28-bc20-92b38d2ac397",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5085963-9649-4e0e-9897-f603fd4760b7",
+            "Value": {
+                "id": "c389a4f6-fca7-4f37-b344-66a57300bc94",
+                "resourcePath": "fonts\\fnt_title\\fnt_title.yy",
+                "resourceType": "GMFont"
             }
         },
         {
