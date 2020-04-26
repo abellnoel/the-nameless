@@ -18,6 +18,6 @@ var sLeft = x + sprite_xoffset + global.healthBarAboveOffset;
 var sTop = y - sprite_yoffset;
 var sRight = sLeft + global.healthBarThickness;
 var sBot = y + sprite_yoffset;
-draw_healthbar(sLeft, sTop, sRight, sBot, (charge / maxCharge * 100), c_dkgray, c_white, c_red, 3, true, false); 
+draw_healthbar(sLeft, sTop, sRight, sBot, (charge / maxCharge * 100), c_dkgray, c_yellow, c_red, 3, true, false); 
 
 

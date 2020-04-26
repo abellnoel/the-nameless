@@ -26,4 +26,5 @@ shotRange = baseChargeRange;
 shotProjSpeed = baseChargeProjSpeed;
 
 //FOR ABILITY
-mana = maxMana;
+mana = 0; //starts at 0, charges up based on shots hit
+chorus = false;

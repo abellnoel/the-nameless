@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "a189607a-9aaf-40bc-a3c9-9d1eab8b19a2"
+        },
+        {
+            "id": "af8df16e-fce8-465a-bb8e-fade12d70782",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 2,
+            "m_owner": "a189607a-9aaf-40bc-a3c9-9d1eab8b19a2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -127,8 +137,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "50",
+            "value": "10 ",
             "varName": "maxMana",
+            "varType": 0
+        },
+        {
+            "id": "f7f265ff-84a9-4ac5-8777-63b71cc18fac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "decayRate",
             "varType": 0
         }
     ],
