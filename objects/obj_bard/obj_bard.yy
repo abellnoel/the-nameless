@@ -154,6 +154,20 @@
             "value": "0.5",
             "varName": "decayRate",
             "varType": 0
+        },
+        {
+            "id": "eb9842ff-3723-4cdc-b85a-25aa7c57cac1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "shotSpread",
+            "varType": 0
         }
     ],
     "solid": false,

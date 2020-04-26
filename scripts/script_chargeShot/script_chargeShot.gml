@@ -19,3 +19,5 @@ shot.travelPointY = y + lengthdir_y(shot.range, shotDir);
 shot.direction = shotDir;
 //change sprite angle to match direction 
 shot.image_angle = shotDir;
+
+return shot;

@@ -36,6 +36,14 @@ if (canAttack) {
 	if (mouse_check_button_released(mb_left)) {
 		//shoot projectile
 		script_chargeShot(obj_noteShot);
+		if (chorus) { //three shot spread when ability is active
+			var shotL = script_chargeShot(obj_noteShot);
+			var shotR = script_chargeShot(obj_noteShot);
+			shotL.direction += shotSpread;
+			shotL.image_angle += shotSpread;
+			shotR.direction -= shotSpread;
+			shotR.image_angle -= shotSpread;
+		}
 		//play shot sound (only if max charge)
 		if (charge == maxCharge) {
 			audio_play_sound(harpShot, 1, false);	
