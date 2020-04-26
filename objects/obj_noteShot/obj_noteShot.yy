@@ -2,7 +2,7 @@
     "id": "81e07217-0a6d-46e5-8a37-dfa5af47db8b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_archerArrow",
+    "name": "obj_noteShot",
     "eventList": [
         {
             "id": "d659d3d5-fd08-4b7e-a16b-3b1881d99810",
@@ -37,6 +37,6 @@
         
     ],
     "solid": false,
-    "spriteId": "719fa4be-4bd8-458c-8b8c-f624ef20f354",
+    "spriteId": "951edddb-5847-46bb-8455-db5e48cb7b62",
     "visible": true
 }

@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "12fcaacc-cb40-4703-88aa-88136b60922b",
+            "Value": {
+                "id": "a2a673a3-b21c-44e4-8b8e-7e02b35ab6a3",
+                "resourcePath": "views\\12fcaacc-cb40-4703-88aa-88136b60922b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "15fd7789-891c-4cbf-afec-df64b2b090c4",
             "Value": {
                 "id": "33a98f3d-c5e1-491f-b166-59d696084ccf",
@@ -364,6 +372,14 @@
                 "id": "7894b9a3-38ae-4870-96f5-39aed5637f15",
                 "resourcePath": "views\\437c1741-f5d5-472a-a4b9-a440690b9ca7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48584faf-028f-4957-bea0-862e91e60918",
+            "Value": {
+                "id": "8f753261-58af-439e-8c33-918a59bdb10d",
+                "resourcePath": "sounds\\harp2\\harp2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -575,10 +591,18 @@
             }
         },
         {
+            "Key": "7ee558b0-3423-4668-a15c-1411bbb102d4",
+            "Value": {
+                "id": "49e58261-299d-40fa-8453-e5bcca285377",
+                "resourcePath": "sounds\\harp3\\harp3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "81e07217-0a6d-46e5-8a37-dfa5af47db8b",
             "Value": {
                 "id": "1b35a116-1e40-437f-b3e0-44df4c0be3ff",
-                "resourcePath": "objects\\obj_archerArrow\\obj_archerArrow.yy",
+                "resourcePath": "objects\\obj_noteShot\\obj_noteShot.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "951edddb-5847-46bb-8455-db5e48cb7b62",
+            "Value": {
+                "id": "c280475a-5fc2-46ce-88d0-1a8e9ba15384",
+                "resourcePath": "sprites\\spr_noteShot\\spr_noteShot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96aed7a8-86dc-43ad-8050-1ca9484c1f51",
             "Value": {
                 "id": "8cb36c1d-0e7e-4ccc-aa51-813cc1b11f2a",
@@ -748,6 +780,14 @@
                 "id": "901d161b-41b7-4ac1-8c73-d182cf563d43",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9c047e0-2a5c-405e-8010-a76f6dabf599",
+            "Value": {
+                "id": "e4a9204a-8dfc-4845-b193-bdf3208a5875",
+                "resourcePath": "sounds\\harp4\\harp4.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -996,6 +1036,22 @@
                 "id": "c389a4f6-fca7-4f37-b344-66a57300bc94",
                 "resourcePath": "fonts\\fnt_title\\fnt_title.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "f7718a49-fd94-4714-847f-f96458019378",
+            "Value": {
+                "id": "4d6fe803-9599-453b-9107-5039ff1b6cc9",
+                "resourcePath": "sounds\\harpShot\\harpShot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f7d91dae-da19-49f3-b1a7-b256bc2bc6a5",
+            "Value": {
+                "id": "3873d73f-4d7c-4e5a-983e-76f04edf515d",
+                "resourcePath": "sounds\\harp1\\harp1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -4,27 +4,50 @@ event_inherited();
 
 //basic attack 
 if (canAttack) {
-	if (mouse_check_button(mb_left)) {
-		//halve movement speed
-		moveSpeed = spd / 2;
+if (mouse_check_button(mb_left)) {
+	//halve movement speed
+	moveSpeed = spd / 2;
 		
-		if (charge < maxCharge) {
-			charge += 1;
-		}
-		percent = charge / maxCharge;
-		//gradually increase damage, range, and proj speed by current percentage of charge
-		shotDamage = baseChargeDamage + (rangeChargeDamage * percent);
-		shotRange = baseChargeRange + (rangeChargeRange * percent);
-		shotProjSpeed = baseChargeProjSpeed + (rangeChargeProjSpeed * percent);
+	if (charge < maxCharge) {
+		charge += 1;
 	}
-	if (mouse_check_button_released(mb_left)) {
-		script_chargeShot(obj_archerArrow);
-		//return shot and movement values to base values
-		moveSpeed = spd;
-		charge = 0;
-		shotDamage = baseChargeDamage;
-		shotRange = baseChargeRange;
-		shotProjSpeed = baseChargeProjSpeed;
+	percent = charge / maxCharge;
+	//gradually increase damage, range, and proj speed by current percentage of charge
+	shotDamage = baseChargeDamage + (rangeChargeDamage * percent);
+	shotRange = baseChargeRange + (rangeChargeRange * percent);
+	shotProjSpeed = baseChargeProjSpeed + (rangeChargeProjSpeed * percent);
+		
+	//play charge sounds
+	switch (charge) {
+		case 10:
+			audio_play_sound(harp1, 1, false);
+			break;
+		case 20:
+			audio_play_sound(harp2, 1, false);	
+			break;
+		case 30:
+			audio_play_sound(harp3, 1, false);	
+			break;
+		case 45:
+			audio_play_sound(harp4, 1, false);	
+			break;
 	}
+}
+if (mouse_check_button_released(mb_left)) {
+	//shoot projectile
+	script_chargeShot(obj_noteShot);
+	//play shot sound (only if max charge)
+	if (charge == maxCharge) {
+		audio_play_sound(harpShot, 1, false);	
+	}
+	//return shot and movement values to base values
+	moveSpeed = spd;
+	charge = 0;
+	shotDamage = baseChargeDamage;
+	shotRange = baseChargeRange;
+	shotProjSpeed = baseChargeProjSpeed;
+	
+	canAttack = false;
+}
 }
 

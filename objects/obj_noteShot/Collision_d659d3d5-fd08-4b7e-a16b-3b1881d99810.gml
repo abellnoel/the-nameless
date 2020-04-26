@@ -4,7 +4,7 @@ if (ds_list_find_index(enemiesHit, other) == -1) {
 	script_execute(script_doDamage, damage, other);
 	
 	//can penetrate up to three enemies
-	if (ds_list_size(enemiesHit) >= 3) {
+	if (ds_list_size(enemiesHit) >= 4) {
 		instance_destroy();
 	}
 }
