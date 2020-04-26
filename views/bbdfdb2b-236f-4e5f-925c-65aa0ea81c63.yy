@@ -6,7 +6,8 @@
     "children": [
         "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
         "7acea554-0fa1-4011-9d64-021a6d514837",
-        "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1"
+        "48cd0a3d-72a9-4f31-9c59-4ba356ad4ef1",
+        "a189607a-9aaf-40bc-a3c9-9d1eab8b19a2"
     ],
     "filterType": "GMObject",
     "folderName": "Player Classes",

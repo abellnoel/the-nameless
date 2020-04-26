@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "a189607a-9aaf-40bc-a3c9-9d1eab8b19a2",
+            "Value": {
+                "id": "8702fbee-385c-4088-927d-41ac4610a29c",
+                "resourcePath": "objects\\obj_archer\\obj_archer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a46b0f6d-70bb-4ba7-8b2f-31f6ce0aa58f",
             "Value": {
                 "id": "67ad48d1-8b4e-4422-8d53-99490e0adcd9",
