@@ -53,6 +53,56 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "ee9bccfb-2c14-4410-8881-8ffd6ad9d288",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 90,
+            "eventtype": 9,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "d2168324-de9c-4790-8211-d4678bb4491f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 88,
+            "eventtype": 9,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "ce15922a-a845-418b-8264-75098f0ea530",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 67,
+            "eventtype": 9,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "c2bed54d-b943-4ddf-8001-c7eda3de7ec2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
+        },
+        {
+            "id": "65fbbde7-fc02-4f4b-a7bc-da9bd4823a81",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -183,6 +233,76 @@
             "value": "spr_player",
             "varName": "spriteRight",
             "varType": 5
+        },
+        {
+            "id": "04d5fcf0-e95c-4e1c-acb7-38b823c24bdc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hp_pot",
+            "varType": 1
+        },
+        {
+            "id": "9e290268-966a-43ae-bf89-00efcd3124b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sp_pot",
+            "varType": 1
+        },
+        {
+            "id": "4272687c-f29e-49bd-835a-012331812b33",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dm_pot",
+            "varType": 1
+        },
+        {
+            "id": "7bc8fbe9-1b26-443e-9564-9f3993bf2ef6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3",
+            "varName": "max_pot_count",
+            "varType": 1
+        },
+        {
+            "id": "9bf6b4f0-e051-405a-9a1d-e97be205b5d7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "spikedmg",
+            "varType": 3
         }
     ],
     "solid": false,

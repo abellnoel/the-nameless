@@ -6,10 +6,7 @@ event_inherited()
 if (canAttack) { //prevents attacks until canAttack is set to true again
 	alarm[0] = room_speed * attackSpeed;	
 }
-
-//checks if the player instance exists
 if(instance_exists(obj_player)) {
-	//behavior of the rat
 	if (!collision_line(x, y, obj_player.x, obj_player.y, obj_solid, true, false)) {
 		seePlayer = true;
 		scurryBehavior = 1;
@@ -17,8 +14,7 @@ if(instance_exists(obj_player)) {
 		seePlayer = false;
 		scurryBehavior = 0;
 	}
-	
-	//when player is in range of shooting
+
 	if (distance_to_object(obj_player) > detectRange and distance_to_object(obj_player) < 400 and seePlayer == true) {
 		speed = 0;
 		if (obj_player.x > x) {
