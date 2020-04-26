@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "3eb28897-68db-46a4-acb3-620c5a0a0cf9",
+            "Value": {
+                "id": "e99902a1-39cd-47e1-b4ae-ff533360da13",
+                "resourcePath": "sprites\\spr_spikeTrap\\spr_spikeTrap.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "Value": {
                 "id": "c4a0c9f4-9975-4154-b03f-b816ca5c3c2b",
