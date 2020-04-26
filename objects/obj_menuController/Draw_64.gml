@@ -89,7 +89,7 @@ if (classSelection) {
 										button2Color,
 										1); break; //alpha (opacity)
 		case 2: 
-			draw_text_color(420, 340, "Archer",
+			draw_text_color(420, 340, "Bard",
 										button2Color,
 										button2Color,
 										button2Color,
