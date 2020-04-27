@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-image_index = 4;
+image_index = 2;
 

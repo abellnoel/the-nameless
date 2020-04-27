@@ -225,6 +225,20 @@
             "value": "room_height - 100",
             "varName": "playerSpawnY",
             "varType": 0
+        },
+        {
+            "id": "11eaeb04-b16a-49e6-a804-54e56aa7068e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FF997474",
+            "varName": "potionGUICircle",
+            "varType": 7
         }
     ],
     "solid": false,
