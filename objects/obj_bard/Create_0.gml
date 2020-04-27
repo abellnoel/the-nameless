@@ -3,7 +3,6 @@
 event_inherited();
 
 //FOR BASIC ATTACK
-chargeInit = false;
 //base values
 charge = 0;
 baseChargeDamage = attackDamage; //base damage with quick clicks

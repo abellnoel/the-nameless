@@ -11,7 +11,10 @@ rangeChargeDamage = maxChargeDamage - baseChargeDamage;
 if (canAttack) {
 	if (mouse_check_button(mb_left)) {
 		//half movement speed
-		moveSpeed = spd / 2;
+		moveSpeed = (spd / 2); 
+		if (activePotion == 1) { //if speed potion active
+			moveSpeed = (spd / 2) + (speedBoost / 2); //incorporates speed boost into half speed
+		}
 	
 		if (charge < maxCharge) {
 			charge += 1;
@@ -55,6 +58,9 @@ if (canAttack) {
 		}
 		//return shot and movement values to base values
 		moveSpeed = spd;
+		if (activePotion == 1) {
+			moveSpeed = spd + speedBoost;
+		}
 		charge = 0;
 		shotDamage = baseChargeDamage;
 		shotRange = baseChargeRange;
