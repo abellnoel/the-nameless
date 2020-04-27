@@ -2,6 +2,11 @@
 // Inherit the parent event
 event_inherited();
 
+//constantly update max damage and damage range (for potion effects)
+baseChargeDamage = attackDamage;
+maxChargeDamage = baseChargeDamage * 3; 
+rangeChargeDamage = maxChargeDamage - baseChargeDamage;
+
 //basic attack 
 if (canAttack) {
 	if (mouse_check_button(mb_left)) {

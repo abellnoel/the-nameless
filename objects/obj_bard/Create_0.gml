@@ -5,7 +5,7 @@ event_inherited();
 //FOR BASIC ATTACK
 //base values
 charge = 0;
-baseChargeDamage = dmg; //base damage with quick clicks
+baseChargeDamage = attackDamage; //base damage with quick clicks
 baseChargeRange = 100; //base range with quick clicks
 baseChargeProjSpeed = 5; //base projectile speed with quick clicks
 
