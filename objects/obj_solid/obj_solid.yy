@@ -22,8 +22,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
-    "solid": true,
+    "properties": [
+        {
+            "id": "f63f5f45-8ec1-414d-9a53-dea96a254420",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "projectilePass",
+            "varType": 3
+        }
+    ],
+    "solid": false,
     "spriteId": "79784140-d350-412d-b0c2-58ab06a8c546",
     "visible": false
 }

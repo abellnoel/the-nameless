@@ -1,2 +1,4 @@
 /// @description Destroy on wall hit
-instance_destroy();
+if (!other.projectilePass) {
+	instance_destroy();
+}

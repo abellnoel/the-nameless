@@ -17,26 +17,26 @@ dir = point_direction(0, 0, hinput, vinput)
 
 image_speed = moveSpeed * 0.1; //animation plays faster if player moves faster
 //if moving with collision detection when object is marked solid
-if (vinput == -1 and place_free(x, y - moveSpeed)) {
+if (vinput == -1 and !place_meeting(x, y - moveSpeed, obj_solid)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
 	if (object_index == obj_warrior) {
 		sprite_index = spriteUp;
 	}
 }
-if (vinput == 1 and place_free(x, y + moveSpeed)) {
+if (vinput == 1 and !place_meeting(x, y + moveSpeed, obj_solid)) {
 	//x += lengthdir_x(moveSpeed, dir);
 	y += lengthdir_y(moveSpeed, dir);
 	if (object_index == obj_warrior) {
 		sprite_index = spriteDown;
 	}
 }
-if (hinput == -1 and place_free(x - moveSpeed, y)) {
+if (hinput == -1 and !place_meeting(x - moveSpeed, y, obj_solid)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
 	sprite_index = spriteLeft;
 }
-if (hinput == 1 and place_free(x + moveSpeed, y)) {
+if (hinput == 1 and !place_meeting(x + moveSpeed, y, obj_solid)) {
 	x += lengthdir_x(moveSpeed, dir);
 	//y += lengthdir_y(moveSpeed, dir);
 	sprite_index = spriteRight;
