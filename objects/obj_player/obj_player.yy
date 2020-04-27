@@ -313,6 +313,48 @@
             "value": "True",
             "varName": "spikedmg",
             "varType": 3
+        },
+        {
+            "id": "bc5e6e30-d805-4c36-a3cc-3822e5edec8d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "speedBoost",
+            "varType": 0
+        },
+        {
+            "id": "3c136755-aeb3-4ed8-9208-6073bcb468fa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "damageBoost",
+            "varType": 0
+        },
+        {
+            "id": "a3915494-da2e-41c7-a4e9-aa8240261eec",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "healthBoost",
+            "varType": 0
         }
     ],
     "solid": false,

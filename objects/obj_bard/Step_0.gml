@@ -10,9 +10,9 @@ rangeChargeDamage = maxChargeDamage - baseChargeDamage;
 //basic attack 
 if (canAttack) {
 	if (mouse_check_button(mb_left)) {
-		//halve movement speed
+		//half movement speed
 		moveSpeed = spd / 2;
-		
+	
 		if (charge < maxCharge) {
 			charge += 1;
 		}
