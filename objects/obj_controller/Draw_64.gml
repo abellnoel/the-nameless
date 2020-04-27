@@ -20,7 +20,7 @@ var loseLines =["Hah! The puny human has fallen! Bring in the next one...",
 				"You'd think humans would provide more than seven seconds of fun",
 				"It seems humans will always be inferior...",
 				"These humans are so funny to think they stood a chance!",
-				"And this is the part where we tell you to try again."];
+				"And this is the part where we tell you to try again"];
 
 var winLines = ["Oooh, this one seems entertaining",
 				"Someone tell me what village this one came from because we need more of them!",

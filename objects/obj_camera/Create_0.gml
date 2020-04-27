@@ -8,3 +8,4 @@ camera_set_proj_mat(playerCamera, projectionMatrix);
 view_camera[0] = playerCamera;
 //for enemy following when dead
 enemyFollow = noone;
+alarmInit = false;
