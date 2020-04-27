@@ -6,8 +6,10 @@ if (instance_exists(obj_player)) {
 //camera moves to nearest enemy once player is killed
 else {
 	enemyFollow = instance_nearest(x, y, obj_enemy);
-	x = enemyFollow.x;
-	y = enemyFollow.y;
+	if (instance_exists(enemyFollow)) {
+		x = enemyFollow.x;
+		y = enemyFollow.y;
+	}
 }
 x = clamp(x, viewWidth / 2, room_width - viewWidth / 2); 
 y = clamp(y, viewHeight / 2, room_width - viewHeight / 2); 

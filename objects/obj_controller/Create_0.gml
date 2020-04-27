@@ -32,4 +32,5 @@ enum STATUS_EFFECT {
 room_complete = false
 dead = false;
 messagePicked = false;
+staleMate = false;
 message = "Message could not be retrieved"

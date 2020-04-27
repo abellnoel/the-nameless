@@ -29,6 +29,10 @@ var winLines = ["Oooh, this one seems entertaining",
 				"An unexpected victory... seems we'll need to make it harder",
 				"Rally the warriors! We've got a new victor on our hands.",
 				 "I suppose this is where we congratulate you or something."];
+				 
+var bothLines = ["Dying AFTER all the actions?! Truly an imbecile",
+				 "The stupidity of humans never ceases to amaze me",
+				 "They stepped on a spike... didn't they"];
 	
 var xPadding = 150;
 var yPosition = 150;
@@ -36,7 +40,7 @@ var yPosition = 150;
 if (room != rm_menu) { //do not draw on menu (menu draw handled in menuController)
 	//win/lose conditions
 	draw_set_font(fnt_progressionMessage);
-	if (dead) { //if player does not exist (was killed)
+	if (dead and !room_complete) { //if player does not exist (was killed)
 		if (!messagePicked) {
 			message = irandom(array_length_1d(loseLines) - 1);
 			messagePicked = true;
@@ -47,7 +51,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			room_restart();
 		}
 	}
-	if (room_complete) { //if every enemy is dead
+	else if (room_complete and !dead) { //if every enemy is dead
 		if (!messagePicked) {
 			message = irandom(array_length_1d(winLines) - 1);
 			messagePicked = true;
@@ -56,6 +60,18 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 		draw_text_ext(midX, yPosition, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
 		if (keyboard_check_pressed(vk_space)) {
 			room_goto_next();
+		}
+	}
+	else if (room_complete and dead) {
+		//if player dies after winning the level
+		if (!staleMate) {
+			message = irandom(array_length_1d(bothLines) - 1);
+			staleMate = true;
+		}
+		draw_text_ext(midX, yPosition, bothLines[message] + "\n(Press SPACE to restart)", -1, display_get_gui_width() - xPadding);
+		//restart level
+		if (keyboard_check_pressed(vk_space)) {
+			room_restart();
 		}
 	}
 
