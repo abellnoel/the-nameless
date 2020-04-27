@@ -967,14 +967,6 @@
             }
         },
         {
-            "Key": "d3413528-7ced-4cd5-ae49-5c61b3aa932c",
-            "Value": {
-                "id": "26406998-5d88-44e8-b1f8-579de08003f8",
-                "resourcePath": "sprites\\sprite37\\sprite37.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d418b543-188b-4868-8afb-99aac39fea91",
             "Value": {
                 "id": "33de0880-bf0f-458d-a49f-bf3c40674ca4",
@@ -1007,6 +999,14 @@
             }
         },
         {
+            "Key": "dfc73fd1-2958-4e86-bae2-80f2f951b1ac",
+            "Value": {
+                "id": "44b5057d-ebc6-4c17-9547-836aa7593fb8",
+                "resourcePath": "sprites\\spr_spikeTrap\\spr_spikeTrap.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e243d11c-f268-4896-bfda-fd5f82b6fa97",
             "Value": {
                 "id": "2910d04e-e22e-4b79-a153-3861086e8c5d",
@@ -1036,14 +1036,6 @@
                 "id": "449a208f-006c-4d7d-a069-cc9ceff09087",
                 "resourcePath": "scripts\\script_attackSummon\\script_attackSummon.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e5197d19-406e-436e-b514-cbd5f33b51cc",
-            "Value": {
-                "id": "bd42c6af-d59b-4a6d-afe6-f929ab34cf60",
-                "resourcePath": "sprites\\sprite38\\sprite38.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
