@@ -1,4 +1,4 @@
-/// @description Draw death message
+/// @description Draw general GUI
 //set gui dimensions
 display_set_gui_size(1280, 720);
 draw_set_halign(fa_center);
@@ -15,7 +15,8 @@ var bottom = display_get_gui_height();
 var loseLines = ["Hah! The puny human has fallen! Bring in the next one...",
 				 "So soon?! We just shipped that one in"];
 var winLines = ["Oooh, this one seems entertaining",
-				"Someone tell me what village this one came from because we need more of them!"];				 
+				"Someone tell me what village this one came from because we need more of them!"];	
+var xPadding = 150;
 
 if (room != rm_menu) { //do not draw on menu (menu draw handled in menuController)
 	//win/lose conditions
@@ -25,7 +26,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			message = irandom(array_length_1d(loseLines) - 1);
 			messagePicked = true;
 		}
-		draw_text_ext(midX, 250, loseLines[message] + "\n(Press SPACE to restart", -1, display_get_gui_width() - 250);
+		draw_text_ext(midX, 250, loseLines[message] + "\n(Press SPACE to restart)", -1, display_get_gui_width() - xPadding);
 		//restart level
 		if (keyboard_check_pressed(vk_space)) {
 			room_restart();
@@ -37,7 +38,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			messagePicked = true;
 		}
 		//go to next level
-		draw_text_ext(midX, 250, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - 250);
+		draw_text_ext(midX, 250, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
 		if (keyboard_check_pressed(vk_space)) {
 			room_goto_next();
 		}
