@@ -12,7 +12,7 @@ var menuY = 200;
 draw_text(center, menuY, "The Nameless")
 
 //calculate button placement
-var y1 = menuY + 180;
+var y1 = menuY + 170;
 var y2 = y1 + 75;
 var y3 = y2 + 75;
 var y4 = y3 + 75;

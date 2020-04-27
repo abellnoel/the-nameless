@@ -92,7 +92,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "$FF000068",
+            "value": "$FFFFFFFF",
             "varName": "normalColor",
             "varType": 7
         },
@@ -106,7 +106,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "$FF0000CC",
+            "value": "$FF7B9D46",
             "varName": "brightColor",
             "varType": 7
         }
