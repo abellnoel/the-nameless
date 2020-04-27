@@ -38,7 +38,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 	draw_circle(potCenterX - underSpread, underActive, subCircleSize, false); //bot-left
 	draw_circle(potCenterX + underSpread, underActive, subCircleSize, false); //bot-right
 	//active potion
-	draw_sprite(spr_potionGUI, 4, potCenterX, potCenterY);
+	draw_sprite(spr_potionGUI, obj_player.activePotion, potCenterX, potCenterY);
 	//potion type sprites
 	draw_sprite(spr_potion, 0, potCenterX, aboveActive); //top-mid
 	draw_sprite(spr_potion, 2, potCenterX - underSpread, underActive); //bot-left
