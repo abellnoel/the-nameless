@@ -9,7 +9,3 @@ if (canAttack) {
 		canAttack = false;
 	}
 }
-
-//talent freeze
-
-
