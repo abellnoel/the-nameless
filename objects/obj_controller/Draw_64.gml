@@ -12,11 +12,26 @@ var right = display_get_gui_width();
 var bottom = display_get_gui_height();
 
 //win/lose messages
-var loseLines = ["Hah! The puny human has fallen! Bring in the next one...",
-				 "So soon?! We just shipped that one in"];
+var loseLines =["Hah! The puny human has fallen! Bring in the next one...",
+				"So soon?! We just shipped that one in",
+				"Pathetic... when will we get some real entertainment",
+				"Humans have such fragile bodies...",
+				"*Sigh* another clean up in the arena please",
+				"You'd think humans would provide more than seven seconds of fun",
+				"It seems humans will always be inferior...",
+				"These humans are so funny to think they stood a chance!",
+				"And this is the part where we tell you to try again."];
+
 var winLines = ["Oooh, this one seems entertaining",
-				"Someone tell me what village this one came from because we need more of them!"];	
+				"Someone tell me what village this one came from because we need more of them!",
+				"This one's a fighter! Bring in the next group",
+				"Haha yes! Keep struggling with all you've got",
+				"An unexpected victory... seems we'll need to make it harder",
+				"Rally the warriors! We've got a new victor on our hands.",
+				 "I suppose this is where we congratulate you or something."];
+	
 var xPadding = 150;
+var yPosition = 150;
 
 if (room != rm_menu) { //do not draw on menu (menu draw handled in menuController)
 	//win/lose conditions
@@ -26,7 +41,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			message = irandom(array_length_1d(loseLines) - 1);
 			messagePicked = true;
 		}
-		draw_text_ext(midX, 250, loseLines[message] + "\n(Press SPACE to restart)", -1, display_get_gui_width() - xPadding);
+		draw_text_ext(midX, yPosition, loseLines[message] + "\n(Press SPACE to restart)", -1, display_get_gui_width() - xPadding);
 		//restart level
 		if (keyboard_check_pressed(vk_space)) {
 			room_restart();
@@ -38,7 +53,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			messagePicked = true;
 		}
 		//go to next level
-		draw_text_ext(midX, 250, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
+		draw_text_ext(midX, yPosition, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
 		if (keyboard_check_pressed(vk_space)) {
 			room_goto_next();
 		}
