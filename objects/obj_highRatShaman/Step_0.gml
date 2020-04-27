@@ -10,12 +10,15 @@ if (canAttack) { //prevents attacks until canAttack is set to true again
 //checks if the player instance exists
 if(instance_exists(obj_player)) {
 	//behavior of the rat
-	if (!collision_line(x, y, obj_player.x, obj_player.y, obj_solid, true, false)) {
-		seePlayer = true;
-		scurryBehavior = 1;
-	} else {
-		seePlayer = false;
-		scurryBehavior = 0;
+	var lineToPlayer = collision_line(x, y, obj_player.x, obj_player.y, obj_solid, true, false);
+	if (instance_exists(lineToPlayer)) {
+		if (lineToPlayer.projectilePass) {
+			seePlayer = true;
+			scurryBehavior = 1;
+		} else {
+			seePlayer = false;
+			scurryBehavior = 0;
+		}
 	}
 	
 	//when player is in range of shooting
