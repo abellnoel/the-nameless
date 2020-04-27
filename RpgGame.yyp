@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "b64c601b-30ad-40ee-89aa-b8fcb8eeac9a",
+            "Value": {
+                "id": "d39f16b2-bb27-4428-b5e3-d5f380758f5b",
+                "resourcePath": "fonts\\fnt_potionGUIText\\fnt_potionGUIText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b7391697-b765-4623-87be-2825be6958c4",
             "Value": {
                 "id": "28055883-40aa-4450-83b8-c22bccae4951",
@@ -1079,6 +1087,14 @@
             }
         },
         {
+            "Key": "f2d50cf8-b5be-42e5-be50-a79161f29b8c",
+            "Value": {
+                "id": "c1d54aa7-f4a4-4e8d-8949-a08cbcd0af1d",
+                "resourcePath": "fonts\\fnt_potionGUI\\fnt_potionGUI.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "a0077629-0b42-4c28-bc20-92b38d2ac397",
@@ -1108,6 +1124,14 @@
                 "id": "4d6fe803-9599-453b-9107-5039ff1b6cc9",
                 "resourcePath": "sounds\\harpShot\\harpShot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f7d4ed17-5c65-40aa-ba0f-b4c6a9d796aa",
+            "Value": {
+                "id": "3885d88b-7c4a-4b07-b0a5-aad9c9844d0a",
+                "resourcePath": "fonts\\fnt_progressionMessage\\fnt_progressionMessage.yy",
+                "resourceType": "GMFont"
             }
         },
         {

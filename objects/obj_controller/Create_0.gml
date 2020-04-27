@@ -10,6 +10,9 @@ global.healthBarThickness = healthBarThickness;
 //godmode toggle
 godmode = false;
 
+//RANDOMIZE SEED
+randomize(); //for "true" random
+
 //ENEMY SPAWN
 chosenSpawn = obj_lowlyRat //default
 //BOTH LISTS MUST BE SAME LENGTH, SAME INDEX CORRESPONDS TO SPAWN KEY
@@ -28,3 +31,5 @@ enum STATUS_EFFECT {
 //Win_condition variable
 room_complete = false
 dead = false;
+messagePicked = false;
+message = "Message could not be retrieved"

@@ -13,9 +13,11 @@ if (global.debugf1) {
 	draw_text(x, bbox_top - 100, "x = " + string(x));
 	draw_text(x, bbox_top - 120, "y = " + string(y));
 	//show potion inventory
+	/*
 	draw_text(x, bbox_bottom + 40, "Health pots: " + string(hp_pot)) 
 	draw_text(x, bbox_bottom + 60, "Damage pots: " + string(dm_pot)) 
 	draw_text(x, bbox_bottom + 80, "Speed pots: " + string(sp_pot)) 
+	*/
 	//show current stats
 	draw_text(bbox_right + 40, y - 20, "Admg: " + string(attackDamage));
 	draw_text(bbox_right + 40, y, "Spd: " + string(moveSpeed));

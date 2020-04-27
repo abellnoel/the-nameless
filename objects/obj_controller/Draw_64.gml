@@ -11,17 +11,41 @@ var midY = display_get_gui_height() /2;
 var right = display_get_gui_width();
 var bottom = display_get_gui_height();
 
-//TEMPORARY win/lose conditions
+//win/lose messages
+var loseLines = ["Hah! The puny human has fallen! Bring in the next one...",
+				 "So soon?! We just shipped that one in"];
+var winLines = ["Oooh, this one seems entertaining",
+				"Someone tell me what village this one came from because we need more of them!"];				 
+
 if (room != rm_menu) { //do not draw on menu (menu draw handled in menuController)
-	if (dead) {
-		draw_text(midX, midY, "You have fallen...\n(Press R to restart)");
+	//win/lose conditions
+	draw_set_font(fnt_progressionMessage);
+	if (dead) { //if player does not exist (was killed)
+		if (!messagePicked) {
+			message = irandom(array_length_1d(loseLines) - 1);
+			messagePicked = true;
+		}
+		draw_text_ext(midX, 250, loseLines[message] + "\n(Press SPACE to restart", -1, display_get_gui_width() - 250);
+		//restart level
+		if (keyboard_check_pressed(vk_space)) {
+			room_restart();
+		}
 	}
-	if (room_complete) {
-		draw_text(midX, midY, "You have defeated the hoards!\n(To be continued...)");
+	if (room_complete) { //if every enemy is dead
+		if (!messagePicked) {
+			message = irandom(array_length_1d(winLines) - 1);
+			messagePicked = true;
+		}
+		//go to next level
+		draw_text_ext(midX, 250, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - 250);
+		if (keyboard_check_pressed(vk_space)) {
+			room_goto_next();
+		}
 	}
 
 	if (instance_exists(obj_player)) {
 		//potion inventory and timers
+		draw_set_font(fnt_potionGUIText);
 		draw_set_color(potionGUICircle);
 		var potCenterX = right - 100; //center for pot gui X
 	 	var potCenterY = bottom - 100; //center for pot gui Y
@@ -60,6 +84,7 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 		}
 	}
 }
+draw_set_font(fnt_default);
 
 
 
