@@ -67,32 +67,29 @@ draw_text(x,y+sp*10+sp2, na+ms+se+me);
 
 
 //THANK YOU MESSAGE WITH SPRITES
+var ty = sp * 12;
 draw_set_font(fnt_creditsHeader);
-draw_text(x,y+sp*11,"Thank you for playing!");
+draw_text(x,y+ty,"Thank you for playing!");
 //player classes
-draw_sprite(spr_warriorDown, 0, x + 5, y + sp * 11 - 50);
-draw_sprite(spr_mageR, 0, x - 70, y + sp * 11 - 50);
-draw_sprite(spr_bardL, 0, x + 70, y + sp * 11 - 50);
+draw_sprite(spr_warriorDown, 0, x + 5, y + ty - 50);
+draw_sprite(spr_mageR, 0, x - 70, y + ty - 50);
+draw_sprite(spr_bardL, 0, x + 70, y + ty - 50);
 //enemies
-draw_sprite(spr_kingRatR, 0, x + 5, y + sp * 11 + 130);
-draw_sprite(spr_lowlyRatR, 0, x - 70, y + sp * 11 + 180);
-draw_sprite(spr_lowlyRatL, 0, x + 70, y + sp * 11 + 180);
+draw_sprite(spr_kingRatR, 0, x + 5, y + ty + 130);
+draw_sprite(spr_lowlyRatR, 0, x - 70, y + ty + 180);
+draw_sprite(spr_lowlyRatL, 0, x + 70, y + ty + 180);
 
-draw_sprite(spr_highRatR, 0, x - 70*2, y + sp * 11 + 160);
-draw_sprite(spr_highRatWarriorL, 0, x + 70*2, y + sp * 11 + 160);
+draw_sprite(spr_highRatR, 0, x - 70*2, y + ty + 160);
+draw_sprite(spr_highRatWarriorL, 0, x + 70*2, y + ty + 160);
 
-draw_sprite(spr_highRatArcherR, 0, x - 70*3, y + sp * 11 + 160);
-draw_sprite(spr_highRatCrossbowmanL, 0, x + 70*3, y + sp * 11 + 160);
+draw_sprite(spr_highRatArcherR, 0, x - 70*3, y + ty + 160);
+draw_sprite(spr_highRatCrossbowmanL, 0, x + 70*3, y + ty + 160);
 
-draw_sprite(spr_highRatShamanR, 0, x - 70*4, y + sp * 11 + 160);
-draw_sprite(spr_highRatShamanL, 0, x + 70*4, y + sp * 11 + 160);
-
-
-
-
+draw_sprite(spr_highRatShamanR, 0, x - 70*4, y + ty + 160);
+draw_sprite(spr_highRatShamanL, 0, x + 70*4, y + ty + 160);
 
 //CHECK IF AT END
-if ((y + sp *11) <= 320 ) {
+if ((y + ty) <= 280) {
 	if (scrollRate > originalScrollRate) {
 		scrollRate = originalScrollRate;
 	}
