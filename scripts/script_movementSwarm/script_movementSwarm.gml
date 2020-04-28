@@ -17,8 +17,8 @@ scurryBox = swarmRange;
 if (move) {
 	xMove = irandom_range(master.x - swarmRange, master.x + swarmRange);
 	yMove = irandom_range(master.y - swarmRange, master.y + swarmRange);
-	//chooses new point if point chosen was offscreen
-	if (point_in_rectangle(xMove, yMove, 0, 0, room_width, room_height) and place_free(xMove, yMove)) { 
+	//chooses new point if point chosen was offscreen or on a solid
+	if (point_in_rectangle(xMove, yMove, 0, 0, room_width, room_height) and !place_meeting(xMove, yMove, obj_solid)) { 
 		move = false;
 	}
 }
