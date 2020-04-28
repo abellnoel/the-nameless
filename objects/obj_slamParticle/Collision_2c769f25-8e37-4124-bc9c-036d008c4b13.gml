@@ -1,3 +1,5 @@
 /// @description Blocked by walls
-instance_destroy();
+if (!other.projectilePass) {
+	instance_destroy();
+}
 
