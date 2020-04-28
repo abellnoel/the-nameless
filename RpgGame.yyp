@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "ce22a855-39c5-4006-85fc-73955fc8e000",
+            "Value": {
+                "id": "f01ab33a-18f5-491b-8098-c1f38f8f20f1",
+                "resourcePath": "sounds\\Credits\\Credits.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cf666bee-3130-4615-aa01-33f265628136",
             "Value": {
                 "id": "e42b35f7-a8b1-4be1-a025-f774b50f963b",
