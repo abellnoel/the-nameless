@@ -48,7 +48,10 @@ draw_text(x,y+sp*6+sp2,"Dark Power - FontKong");
 draw_set_font(fnt_creditsHeader);
 draw_text(x,y+sp*7,"Music");
 draw_set_font(fnt_credits);
-draw_text(x,y+sp*7+sp2,"PLACEHOLDER");
+draw_text(x,y+sp*7+sp2,"Atrium Carceri & Herbst9 - Hander Skola Halla Harda Yxor\n" +
+					   "Paleowolf - Archaic Eon\n" +
+					   "Oljus - Hraesvelgr\n" +
+					   "Cryo Chamber Collaboration - Shub-Niggurath 1 Excerpt")
 //Sound creators
 draw_set_font(fnt_creditsHeader);
 draw_text(x,y+sp*8,"Sounds");
