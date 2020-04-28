@@ -63,7 +63,7 @@ draw_text(x,y+sp*9+sp2, na+ms+se+me);
 draw_set_font(fnt_creditsHeader);
 draw_text(x,y+sp*10,"Writing");
 draw_set_font(fnt_credits);
-draw_text(x,y+sp*10+sp2, na);
+draw_text(x,y+sp*10+sp2, na+ms+se+me);
 
 
 //THANK YOU MESSAGE WITH SPRITES
@@ -125,8 +125,8 @@ for (var i = 1; i < 9; i++) {
 //IF FINISHED CLOSE CURTAINS
 if (finished) {
 	if (leftX + 64 <= rightX) {
-		leftX++;
-		rightX--;
+		leftX += curtainRate;
+		rightX -= curtainRate;
 	}
 	else {
 		fade = true;

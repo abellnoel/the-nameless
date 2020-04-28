@@ -146,8 +146,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
+            "value": "0.01",
             "varName": "fadeRate",
+            "varType": 0
+        },
+        {
+            "id": "b876727d-ed9c-4745-a71e-16d489eb1b72",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "curtainRate",
             "varType": 0
         }
     ],
