@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "29a347ab-6395-4580-836e-f73c37e968e6",
+            "Value": {
+                "id": "844990ff-0700-499c-9cbb-665248afae9f",
+                "resourcePath": "views\\29a347ab-6395-4580-836e-f73c37e968e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2a4449c5-984b-432c-9551-c38cdf941aba",
             "Value": {
                 "id": "e4ed6465-fe6e-4108-b510-2115f8b20330",
@@ -476,6 +484,14 @@
                 "id": "cf582f89-ce96-4499-a2e6-d2de2ecbd754",
                 "resourcePath": "scripts\\script_attackSlam\\script_attackSlam.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "52bb3508-7b3e-4763-ba97-1fc977d7216e",
+            "Value": {
+                "id": "37ba7acd-aa3f-4879-b9ef-2408e4a6de0e",
+                "resourcePath": "sounds\\Main_Menu\\Main_Menu.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -815,6 +831,14 @@
             }
         },
         {
+            "Key": "98ff7728-7b29-485c-a446-3e4f58b18c1f",
+            "Value": {
+                "id": "5439ece2-381b-44a4-b988-2030264c342a",
+                "resourcePath": "sounds\\Level_3\\Level_3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9c29e7c0-95af-4d66-a0a8-c3e1ebaff7e7",
             "Value": {
                 "id": "329ba953-2c65-4e6d-88d4-3b93d9cabfb8",
@@ -836,6 +860,14 @@
                 "id": "8702fbee-385c-4088-927d-41ac4610a29c",
                 "resourcePath": "objects\\obj_bard\\obj_bard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a2dd26cf-2215-4573-ac0d-c8b2e33505c9",
+            "Value": {
+                "id": "187ab821-abc1-465b-a2be-89934dc777e8",
+                "resourcePath": "sounds\\Level_1\\Level_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -932,6 +964,14 @@
                 "id": "28055883-40aa-4450-83b8-c22bccae4951",
                 "resourcePath": "scripts\\script_shootProjectile\\script_shootProjectile.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b751c608-2c3d-4a57-80fa-590cf5530393",
+            "Value": {
+                "id": "9ba7969f-a2f0-4e92-bcb8-cf48af32d070",
+                "resourcePath": "sounds\\Level_2\\Level_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
