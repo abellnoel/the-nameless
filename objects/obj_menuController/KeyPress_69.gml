@@ -19,6 +19,7 @@ switch (selection) {
 	//CREDITS
 	case 3:
 		//credits screen
+		room_goto(rm_credits);
 		break;
 	//EXIT
 	case 4:

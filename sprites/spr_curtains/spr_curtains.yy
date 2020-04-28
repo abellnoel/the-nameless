@@ -2,7 +2,7 @@
     "id": "71250df9-c9d0-41f1-8dda-d7b0565410ab",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_menuBackground",
+    "name": "spr_curtains",
     "For3D": false,
     "HTile": false,
     "VTile": false,
