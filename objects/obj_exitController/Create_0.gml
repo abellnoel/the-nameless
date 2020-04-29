@@ -1,0 +1,2 @@
+/// @description Flags
+gateDown = false;
