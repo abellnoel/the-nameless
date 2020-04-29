@@ -5,23 +5,13 @@
     "name": "obj_exitDetector",
     "eventList": [
         {
-            "id": "f6de7e52-d437-4d6c-a0f1-e1624c851d17",
+            "id": "8182df0a-c95d-4925-b7f6-451bbd8b7736",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "14f20a53-6eed-4ecc-a18c-029a904e03ab"
-        },
-        {
-            "id": "cade57cc-ac99-4eec-9c84-9c33fb61c456",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 4,
             "m_owner": "14f20a53-6eed-4ecc-a18c-029a904e03ab"
         }
     ],
@@ -59,5 +49,5 @@
     ],
     "solid": false,
     "spriteId": "ecb57d99-415e-497f-80d5-64c79e901624",
-    "visible": true
+    "visible": false
 }

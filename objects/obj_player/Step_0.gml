@@ -47,12 +47,14 @@ if (hinput == 0 and vinput == 0) {
 }
 //prevent leaving room
 //define offsets based on bounding box
-var rightOffset = sprite_xoffset - (sprite_xoffset - (bbox_right - x));
-var leftOffset = sprite_xoffset - (sprite_xoffset - (x - bbox_left));
-var topOffset = sprite_yoffset - (sprite_yoffset - (y - bbox_top));
-var botOffset = sprite_yoffset - (sprite_yoffset - (bbox_bottom - y));
-x = clamp(x, 0 + leftOffset, room_width - rightOffset);
-y = clamp(y, 0 + topOffset, room_height - botOffset);
+if (room != rm_exit) { //allow player to walk out of screen at exit
+	var rightOffset = sprite_xoffset - (sprite_xoffset - (bbox_right - x));
+	var leftOffset = sprite_xoffset - (sprite_xoffset - (x - bbox_left));
+	var topOffset = sprite_yoffset - (sprite_yoffset - (y - bbox_top));
+	var botOffset = sprite_yoffset - (sprite_yoffset - (bbox_bottom - y));
+	x = clamp(x, 0 + leftOffset, room_width - rightOffset);
+	y = clamp(y, 0 + topOffset, room_height - botOffset);
+}
 
 //ATTACK SPEED ALARM 
 //FOR CHILDREN: Set canAttack to false in basic attack code after basic attack occurs
