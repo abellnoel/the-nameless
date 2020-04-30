@@ -3,8 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-
-//Magic impact sound need here
-
-instance_change(obj_magicSplash1, true);
+projectileType = obj_arrow;
 

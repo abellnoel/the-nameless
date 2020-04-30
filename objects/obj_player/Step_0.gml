@@ -63,4 +63,4 @@ if (canAttack) { //prevents attacks until canAttack is set to true again
 }
 
 //DEATH AND ANIMATION
-script_execute(script_deathAnimation, obj_bloodBurst);
+script_execute(script_deathAnimation, obj_bloodBurst, obj_player);
