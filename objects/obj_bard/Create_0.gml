@@ -2,6 +2,9 @@
 // Inherit the parent event
 event_inherited();
 
+globalvar musicNoteCounter;
+musicNoteCounter = 0; //music note yellow default start
+
 //FOR BASIC ATTACK
 //base values
 charge = 0;

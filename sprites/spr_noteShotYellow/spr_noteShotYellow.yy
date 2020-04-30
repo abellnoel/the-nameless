@@ -2,7 +2,7 @@
     "id": "951edddb-5847-46bb-8455-db5e48cb7b62",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_noteShot",
+    "name": "spr_noteShotYellow",
     "For3D": false,
     "HTile": false,
     "VTile": false,
