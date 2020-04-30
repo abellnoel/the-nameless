@@ -5,8 +5,8 @@
 */
 
 //VARIABLES REQUIRED FROM CALLING INSTANCE
-//canAttack, attackDamage, attackSpeed, alarm[0] -> sets canAttack back to true
 
+//canAttack, attackDamage, attackSpeed, alarm[0] -> sets canAttack back to true
 //establishes attack intervals
 if (canAttack) {
 	player = instance_place(x, y, obj_player);
