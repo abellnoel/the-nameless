@@ -1,8 +1,8 @@
 {
-    "id": "52bb3508-7b3e-4763-ba97-1fc977d7216e",
+    "id": "99563a2d-ed77-41d4-bf43-2d99c7323ce2",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Main_Menu",
+    "name": "arrow_shot2",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.5
+    "volume": 1
 }

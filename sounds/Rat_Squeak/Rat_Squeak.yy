@@ -1,14 +1,14 @@
 {
-    "id": "52bb3508-7b3e-4763-ba97-1fc977d7216e",
+    "id": "1dc2f116-bbd1-4bb4-a40e-88a9c8547cd4",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Main_Menu",
+    "name": "Rat_Squeak",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
-    "bitDepth": 1,
+    "bitDepth": 0,
     "bitRate": 128,
     "kind": 0,
     "preload": false,
-    "sampleRate": 44100,
+    "sampleRate": 22050,
     "type": 0,
-    "volume": 0.5
+    "volume": 1
 }
