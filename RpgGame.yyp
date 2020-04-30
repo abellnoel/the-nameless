@@ -1423,6 +1423,14 @@
             }
         },
         {
+            "Key": "f7a46d71-59e8-4bda-b80d-e343e9f24442",
+            "Value": {
+                "id": "9e3f0308-8ca0-426a-b54b-1553f5ee7bae",
+                "resourcePath": "sprites\\spr_noteShotColorful\\spr_noteShotColorful.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7d4ed17-5c65-40aa-ba0f-b4c6a9d796aa",
             "Value": {
                 "id": "3885d88b-7c4a-4b07-b0a5-aad9c9844d0a",
