@@ -111,7 +111,7 @@
             "mvc": "1.0",
             "objectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
             "propertyId": "7ee9e060-4a03-49e3-bb1a-834235776237",
-            "value": "20"
+            "value": "25"
         }
     ],
     "parentObjectId": "d5c57f07-8f51-4e49-9274-66f2a9b4e1d6",
@@ -139,7 +139,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "75",
             "varName": "maxMana",
             "varType": 0
         },
