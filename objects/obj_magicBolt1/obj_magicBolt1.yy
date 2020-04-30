@@ -96,7 +96,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "6",
             "varName": "projectileSpeed",
             "varType": 0
         }

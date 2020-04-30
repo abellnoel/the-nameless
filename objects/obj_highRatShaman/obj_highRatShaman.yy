@@ -33,7 +33,7 @@
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "propertyId": "b99d845a-a1fa-446d-aa76-3bb17c226c17",
-            "value": "40"
+            "value": "80"
         },
         {
             "id": "368448f9-46a2-42a6-9495-0ec33dcaee24",
@@ -93,7 +93,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
+            "value": "False",
             "varName": "seePlayer",
             "varType": 3
         }

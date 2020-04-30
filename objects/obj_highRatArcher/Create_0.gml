@@ -1,7 +1,9 @@
-/// @description Lowly rat scurries to random locations within a box around itself
+/// @description Insert description here
+// You can write your code in this editor
+
 // Inherit the parent event
 event_inherited();
 
-//sprite change (direction that it is moving or facing)
 spriteLeft = spr_highRatArcherL;
 spriteRight = spr_highRatArcherR;
+projectileType = obj_arrow;

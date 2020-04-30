@@ -6,6 +6,10 @@ var shot = instance_create_layer(x, y, "Instances", shotType);
 //direction of mouse from player or enemy shoots projectile towards the player
 if(object_index == obj_highRatShaman) {
 	var shotDir = point_direction(x, y, obj_player.x, obj_player.y); 
+} else if(object_index == obj_highRatArcher) {
+	var shotDir = point_direction(x, y, obj_player.x, obj_player.y); 
+} else if(object_index == obj_highRatCrossbowman) {
+	var shotDir = point_direction(x, y, obj_player.x, obj_player.y); 
 } else {
 	var shotDir = point_direction(x, y, mouse_x, mouse_y); 
 }

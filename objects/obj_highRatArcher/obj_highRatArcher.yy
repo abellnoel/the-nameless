@@ -1,48 +1,24 @@
 {
-    "id": "4d72c7c2-1fa3-461f-8be8-f187a7ebcdf5",
+    "id": "04d57644-0b3e-42e9-8710-f31f3cdf2fd2",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_highRatArcher",
     "eventList": [
         {
-            "id": "ab7662f1-d8dd-496c-8914-c1d906f55722",
+            "id": "16a849ea-cda9-4ce5-a490-dbb36e583901",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4d72c7c2-1fa3-461f-8be8-f187a7ebcdf5"
+            "m_owner": "04d57644-0b3e-42e9-8710-f31f3cdf2fd2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "4cb8ad7e-846a-4642-b0a4-a366df811727",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
-            "propertyId": "b99d845a-a1fa-446d-aa76-3bb17c226c17",
-            "value": "50"
-        },
-        {
-            "id": "11e9987d-28b1-417b-a0f4-20ee72b9b14e",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
-            "propertyId": "de5bf515-d5e1-4676-8834-7b3c11df73db",
-            "value": "3"
-        },
-        {
-            "id": "7c95fb97-8898-491c-95fb-7c84b4cd8786",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
-            "propertyId": "cdb27e45-79b2-4c1d-b2ee-18aecbb8b579",
-            "value": "5"
-        },
-        {
-            "id": "011765d3-f97a-4275-aac3-598952185a40",
+            "id": "f71fda48-0911-4655-8916-27cfa1cb57f3",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
@@ -50,15 +26,15 @@
             "value": "1"
         },
         {
-            "id": "410c0a33-ca07-4003-a305-b1aedc7dc64a",
+            "id": "8e538ed4-ad1b-46ef-8753-542d2bc1c7cc",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
-            "objectId": "5a4d4604-7a66-478e-9641-3f7272edf909",
-            "propertyId": "f22f44aa-9dfe-440b-afc3-8aef3a83aa9a",
-            "value": "1"
+            "objectId": "40887a3a-630a-45b9-93d3-866dd3ee8950",
+            "propertyId": "cdb27e45-79b2-4c1d-b2ee-18aecbb8b579",
+            "value": "20"
         }
     ],
-    "parentObjectId": "5a4d4604-7a66-478e-9641-3f7272edf909",
+    "parentObjectId": "f7e3b06a-89b3-4d68-bbea-5fb8cc12f61b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -74,7 +50,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "fbba7ec4-3384-408a-b830-e0e8772e2020",
+            "id": "3920a97c-08ad-40d5-844e-18e8bef265ee",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -83,8 +59,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "250",
-            "varName": "scurryRange",
+            "value": "0",
+            "varName": "variable_name",
             "varType": 0
         }
     ],
