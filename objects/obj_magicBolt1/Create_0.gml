@@ -5,4 +5,4 @@ event_inherited();
 travelPointX = noone;
 travelPointY = noone;
 speed = projectileSpeed;
-
+projectileType = obj_magicBolt1;

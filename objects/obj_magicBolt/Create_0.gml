@@ -5,4 +5,3 @@ event_inherited();
 travelPointX = noone;
 travelPointY = noone;
 speed = projectileSpeed;
-

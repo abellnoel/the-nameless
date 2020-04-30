@@ -34,6 +34,16 @@ if(instance_exists(obj_player)) {
 	
 		//basic attack 
 		if (canAttack) {
+			if(projectileType == obj_magicBolt1) {
+				audio_play_sound(Magic_Flying, 10, false);
+				
+			} else if(projectileType == obj_arrow) {
+				audio_play_sound(arrow_shot3, 10, false);
+				
+			} else {
+				audio_play_sound(cross_bow, 10, false);
+			}
+			
 			script_execute(script_shootProjectile, projectileType);
 			canAttack = false;
 		}

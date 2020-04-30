@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_crossbow_bolt",
     "eventList": [
-        
+        {
+            "id": "3f2e0677-e02e-44b3-9798-3f76a9cf825a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d418b543-188b-4868-8afb-99aac39fea91"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
