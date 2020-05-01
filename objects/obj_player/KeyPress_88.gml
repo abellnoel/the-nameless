@@ -9,5 +9,6 @@ if(obj_player.dm_pot != 0 and alarm[2] == -1 and activePotion == 4){
 	alarm[2] = (room_speed * length)
 	obj_player.dm_pot -=1
 	activePotion = 2;
+	audio_play_sound(Potion, 10, false);
 }
 
