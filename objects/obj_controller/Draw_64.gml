@@ -57,10 +57,16 @@ if (room != rm_menu) { //do not draw on menu (menu draw handled in menuControlle
 			messagePicked = true;
 		}
 		//go to next level
-		draw_text_ext(midX, yPosition, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
+		if(room != rm_levelB){
+			draw_text_ext(midX, yPosition, winLines[message] + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding);
+			}else{draw_text_ext(midX, yPosition, "Fine. Take your victories and go" + "\n(Press SPACE to continue)", -1, display_get_gui_width() - xPadding); }
+		
+		
 		if (keyboard_check_pressed(vk_space)) {
+		
 			room_goto_next();
-		}
+			}
+		
 	}
 	else if (room_complete and dead) {
 		//if player dies after winning the level
