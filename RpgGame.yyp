@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "45699dc2-c178-44c0-9081-9a582b86cc82",
+            "Value": {
+                "id": "5baf3568-881a-469b-b150-64fce5b0c334",
+                "resourcePath": "sounds\\Magic_Freeze_Twinkle\\Magic_Freeze_Twinkle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "48584faf-028f-4957-bea0-862e91e60918",
             "Value": {
                 "id": "8f753261-58af-439e-8c33-918a59bdb10d",
