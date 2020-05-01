@@ -1479,6 +1479,14 @@
             }
         },
         {
+            "Key": "f7379bf9-2fae-473a-afff-5a514fd69f72",
+            "Value": {
+                "id": "0b2881a4-e444-4e52-b95e-91130ccd9abc",
+                "resourcePath": "sounds\\Freeze\\Freeze.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f762abb4-d65f-4a1f-8299-b45079f0a335",
             "Value": {
                 "id": "1e45bd48-18e8-499f-9541-19f68ff6e886",
