@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "08bd89cf-fc49-493f-8af2-cae9ca014bec",
+            "Value": {
+                "id": "8b92d83b-1670-4f79-9aca-1aaadb412f8a",
+                "resourcePath": "sprites\\spr_noteShotPurple\\spr_noteShotPurple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09c39606-23e8-4fc0-bf94-670834b590f7",
             "Value": {
                 "id": "718183c0-04d1-413c-a0a0-c3b62c248e31",
@@ -284,6 +292,14 @@
                 "id": "831c78bc-1e28-4630-8d55-86733edd961d",
                 "resourcePath": "views\\217da4df-234d-4288-9a9d-a8919f9300f5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "253723ef-4a0e-4635-b0da-b33179904407",
+            "Value": {
+                "id": "480f2bc2-3382-4b04-a35c-b5920682f4ed",
+                "resourcePath": "sprites\\spr_noteShotOrange\\spr_noteShotOrange.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "3dad5f66-9f1d-4730-b142-2c484b1de7cf",
+            "Value": {
+                "id": "bee18f31-0261-4bec-a275-3ea70331d29b",
+                "resourcePath": "sprites\\spr_noteShotYellow\\spr_noteShotYellow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40887a3a-630a-45b9-93d3-866dd3ee8950",
             "Value": {
                 "id": "c4a0c9f4-9975-4154-b03f-b816ca5c3c2b",
@@ -628,6 +652,14 @@
                 "id": "4632f6ba-2492-4ca9-8e40-d5324400fe27",
                 "resourcePath": "fonts\\fnt_classSelect\\fnt_classSelect.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "6050fa18-1348-4cd4-9a60-e445e6e69f55",
+            "Value": {
+                "id": "2be87e9f-da05-4f5d-b5a2-71a87e8d4a49",
+                "resourcePath": "sprites\\spr_noteShotAqua\\spr_noteShotAqua.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1015,6 +1047,14 @@
             }
         },
         {
+            "Key": "a2385809-6702-4355-a006-500303eb9c22",
+            "Value": {
+                "id": "86d52cca-b4f2-49d3-854d-be163cbadfb0",
+                "resourcePath": "sprites\\spr_noteShotPink\\spr_noteShotPink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a2bf6f3a-b7c9-4f37-bcc5-f0acb59728c7",
             "Value": {
                 "id": "ecb579b3-bd7c-46b3-ae46-610a47e9a8c8",
@@ -1036,6 +1076,14 @@
                 "id": "67ad48d1-8b4e-4422-8d53-99490e0adcd9",
                 "resourcePath": "objects\\obj_magicSplash\\obj_magicSplash.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a672a988-e7df-4962-91e4-4ba95bacd2d6",
+            "Value": {
+                "id": "4b56f26e-024a-4d4b-9494-c3e5e53122bc",
+                "resourcePath": "sprites\\spr_noteShotGreen\\spr_noteShotGreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1148,6 +1196,14 @@
                 "id": "e2477e9a-a70e-4903-a563-4ad62fa70d9a",
                 "resourcePath": "views\\bbdfdb2b-236f-4e5f-925c-65aa0ea81c63.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc86088d-0b80-4fa8-9e26-2f4b0bbe900e",
+            "Value": {
+                "id": "5eae3ec0-7650-476d-a21d-58effbe7138d",
+                "resourcePath": "sprites\\spr_noteShotLime\\spr_noteShotLime.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1532,6 +1588,14 @@
                 "id": "48b847f6-c647-4c27-a506-d2a5b01a6217",
                 "resourcePath": "fonts\\fnt_credits\\fnt_credits.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "fb2444a5-7168-4d02-96a1-748c4b47e437",
+            "Value": {
+                "id": "2f56daa1-922e-4e50-bdb9-eb59c8579ef3",
+                "resourcePath": "sprites\\spr_noteShotBlue\\spr_noteShotBlue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

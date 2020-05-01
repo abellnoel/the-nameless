@@ -13,7 +13,15 @@
         "5f86c892-fa1a-4f29-bf6b-9eaebd9c491e",
         "2a4449c5-984b-432c-9551-c38cdf941aba",
         "951edddb-5847-46bb-8455-db5e48cb7b62",
-        "f7a46d71-59e8-4bda-b80d-e343e9f24442"
+        "f7a46d71-59e8-4bda-b80d-e343e9f24442",
+        "6050fa18-1348-4cd4-9a60-e445e6e69f55",
+        "fb2444a5-7168-4d02-96a1-748c4b47e437",
+        "a672a988-e7df-4962-91e4-4ba95bacd2d6",
+        "bc86088d-0b80-4fa8-9e26-2f4b0bbe900e",
+        "253723ef-4a0e-4635-b0da-b33179904407",
+        "a2385809-6702-4355-a006-500303eb9c22",
+        "08bd89cf-fc49-493f-8af2-cae9ca014bec",
+        "3dad5f66-9f1d-4730-b142-2c484b1de7cf"
     ],
     "filterType": "GMSprite",
     "folderName": "Projectile",
