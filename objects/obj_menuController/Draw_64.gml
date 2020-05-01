@@ -100,3 +100,8 @@ if (classSelection) {
 	}
 }
 
+//menu navigation tips
+draw_set_color(normalColor);
+draw_set_halign(fa_left);
+draw_set_font(fnt_menuTips);
+draw_text(left, 680, "UP - W | DOWN - S | CONFIRM - E | WSAD - MOVE | LEFT MOUSE - ATTACK | RIGHT MOUSE - SPECIAL");
