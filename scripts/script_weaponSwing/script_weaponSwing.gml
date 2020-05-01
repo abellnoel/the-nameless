@@ -21,9 +21,11 @@ swing.damage = attackDamage;
 //swing is faced toward mouse
 if(object_index == obj_highRatWarrior) {
 	if(instance_exists(obj_player)) {
+		audio_play_sound(Sword_Swing, 10, false);
 		swingDir = point_direction(x, y, obj_player.x, obj_player.y); 
 	}
 } else {
+	audio_play_sound(Sword_Swing, 10, false);
 	swingDir = point_direction(x, y, mouse_x, mouse_y); 
 }
 swing.image_angle = swingDir;

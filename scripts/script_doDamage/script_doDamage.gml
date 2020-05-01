@@ -17,8 +17,12 @@ if (object_index == obj_highRatWarrior) {
 	script_execute(script_weaponSwing, obj_enemySwordSlash);
 } 
 
-if(object_index == obj_lowlyRat || object_index == obj_highRat) {
+if (object_index == obj_lowlyRat) {
+	audio_play_sound(Bite, 10, false);
+	
+} else if (object_index == obj_highRat) {
 	audio_play_sound(punch, 10, false);
+	
 } else if (object_index == obj_highRatWarrior) {
 	if(target.status == STATUS_EFFECT.BLOCKING) {
 			audio_play_sound(Sword_Hit_Sheild, 10, false);
