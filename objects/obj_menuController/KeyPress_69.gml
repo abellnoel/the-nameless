@@ -3,7 +3,8 @@ switch (selection) {
 	//PLAY
 	case 1: 
 		//PLAY
-		room_goto_next();
+		audio_play_sound(gate, 1, false);
+		playPressed = true;
 		break;
 	//SELECT CLASS
 	case 2:

@@ -12,4 +12,10 @@ if (playerExit) {
 	else {
 		gateUp = true;
 	}
+	
+	//play gate sound
+	if (!gateSound) {
+		audio_play_sound(gate, 1, false);
+		gateSound = true;
+	}
 }
